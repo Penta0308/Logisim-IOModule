@@ -3,13 +3,10 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
 import javax.swing.tree.TreePath;
-import java.awt.*;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-import java.awt.dnd.*;
 import java.awt.image.BufferedImage;
 import java.util.Arrays;
 

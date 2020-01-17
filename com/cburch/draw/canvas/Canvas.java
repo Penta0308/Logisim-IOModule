@@ -7,8 +7,6 @@ import com.cburch.draw.model.CanvasModel;
 import com.cburch.draw.model.CanvasObject;
 import com.cburch.draw.undo.Action;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 

@@ -9,7 +9,6 @@ import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.util.HashMap;
 import java.util.HashSet;
 

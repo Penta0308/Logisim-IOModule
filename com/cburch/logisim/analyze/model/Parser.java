@@ -22,6 +22,7 @@ public class Parser {
     private static final int TOKEN_CONST = 8;
     private static final int TOKEN_WHITE = 9;
     private static final int TOKEN_ERROR = 10;
+
     private Parser() {
     }
 

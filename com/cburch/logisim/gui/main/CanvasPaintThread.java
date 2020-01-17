@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.gui.main;
 
-import java.awt.*;
-
 class CanvasPaintThread extends Thread {
     private static final int REPAINT_TIMESPAN = 50; // 50 ms between repaints
 

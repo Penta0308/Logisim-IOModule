@@ -10,8 +10,6 @@ import com.cburch.logisim.instance.InstanceData;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.StringUtil;
 
-import java.awt.*;
-
 class MemState implements InstanceData, Cloneable, HexModelListener {
     private static final int ROWS = 4; // rows in memory display
 

@@ -18,9 +18,6 @@ import com.cburch.logisim.proj.ProjectEvent;
 import com.cburch.logisim.proj.ProjectListener;
 import com.cburch.logisim.tools.CustomHandles;
 
-import java.awt.*;
-import java.util.*;
-
 public class Selection extends SelectionBase {
     private MyListener myListener;
     private boolean isVisible = true;

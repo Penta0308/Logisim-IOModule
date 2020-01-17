@@ -11,8 +11,6 @@ import com.cburch.logisim.tools.AddTool;
 import com.cburch.logisim.tools.Library;
 import com.cburch.logisim.tools.Tool;
 
-import java.util.*;
-
 public class FileStatistics {
     private List<Count> counts;
     private Count totalWithout;

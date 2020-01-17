@@ -3,9 +3,6 @@
 
 package com.cburch.draw.util;
 
-import javax.swing.*;
-import java.awt.*;
-
 public class EditableLabelField extends JTextField {
     static final int FIELD_BORDER = 2;
 

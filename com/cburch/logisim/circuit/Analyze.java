@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.circuit;
 
-import com.cburch.logisim.analyze.model.*;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.data.Direction;
 import com.cburch.logisim.data.Location;
@@ -13,8 +12,6 @@ import com.cburch.logisim.instance.InstanceState;
 import com.cburch.logisim.instance.StdAttr;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.std.wiring.Pin;
-
-import java.util.*;
 
 public class Analyze {
     private static final int MAX_ITERATIONS = 100;

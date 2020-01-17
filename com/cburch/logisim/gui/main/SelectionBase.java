@@ -15,9 +15,6 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.util.CollectionUtil;
 
-import java.awt.*;
-import java.util.*;
-
 class SelectionBase {
     static final Set<Component> NO_COMPONENTS = Collections.emptySet();
     final HashSet<Component> selected = new HashSet<Component>(); // of selected Components in circuit

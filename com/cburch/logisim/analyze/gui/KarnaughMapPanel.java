@@ -3,11 +3,8 @@
 
 package com.cburch.logisim.analyze.gui;
 
-import com.cburch.logisim.analyze.model.*;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.util.List;
 
@@ -40,6 +37,7 @@ class KarnaughMapPanel extends JPanel implements TruthTablePanel {
     private int provisionalX;
     private int provisionalY;
     private Entry provisionalValue = null;
+
     public KarnaughMapPanel(AnalyzerModel model) {
         this.model = model;
         model.getOutputExpressions().addOutputExpressionsListener(myListener);

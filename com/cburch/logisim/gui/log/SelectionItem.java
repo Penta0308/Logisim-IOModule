@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.gui.log;
 
-import com.cburch.logisim.circuit.*;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.data.AttributeEvent;
 import com.cburch.logisim.data.AttributeListener;

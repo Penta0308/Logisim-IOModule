@@ -6,8 +6,6 @@ package com.cburch.logisim.analyze.gui;
 import com.cburch.logisim.analyze.model.Expression;
 import com.cburch.logisim.analyze.model.ExpressionVisitor;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.util.ArrayList;
@@ -27,6 +25,7 @@ class ExpressionView extends JPanel {
     private static final int MINIMUM_HEIGHT = 25;
     private MyListener myListener = new MyListener();
     private RenderData renderData;
+
     public ExpressionView() {
         addComponentListener(myListener);
         setExpression(null);

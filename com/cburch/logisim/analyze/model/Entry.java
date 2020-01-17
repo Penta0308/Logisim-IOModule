@@ -13,6 +13,7 @@ public class Entry {
     public static final Entry OSCILLATE_ERROR = new Entry(Strings.getter("oscillateError"));
     private String description;
     private StringGetter errorMessage;
+
     private Entry(String description) {
         this.description = description;
         this.errorMessage = null;

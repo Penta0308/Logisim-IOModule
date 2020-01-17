@@ -8,7 +8,6 @@ import com.cburch.logisim.analyze.model.VariableList;
 import com.cburch.logisim.analyze.model.VariableListEvent;
 import com.cburch.logisim.analyze.model.VariableListListener;
 
-import javax.swing.*;
 import java.awt.event.ItemListener;
 
 class OutputSelector {
@@ -16,6 +15,7 @@ class OutputSelector {
     private JLabel label = new JLabel();
     private JComboBox select = new JComboBox();
     private String prototypeValue = null;
+
     public OutputSelector(AnalyzerModel model) {
         this.source = model.getOutputs();
 

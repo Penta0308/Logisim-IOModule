@@ -9,7 +9,6 @@ import com.cburch.logisim.instance.InstancePainter;
 import com.cburch.logisim.instance.InstancePoker;
 import com.cburch.logisim.instance.InstanceState;
 
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 public class SubcircuitPoker extends InstancePoker {

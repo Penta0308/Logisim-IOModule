@@ -5,15 +5,12 @@ package com.cburch.logisim.instance;
 
 import com.cburch.logisim.circuit.CircuitState;
 import com.cburch.logisim.comp.Component;
-import com.cburch.logisim.comp.*;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.tools.TextEditable;
 import com.cburch.logisim.tools.ToolTipMaker;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 import com.cburch.logisim.util.StringGetter;
 import com.cburch.logisim.util.UnmodifiableList;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;

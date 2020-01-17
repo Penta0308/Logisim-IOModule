@@ -5,8 +5,6 @@ package com.cburch.logisim.data;
 
 import com.cburch.logisim.util.Cache;
 
-import java.awt.*;
-
 /**
  * Represents an immutable rectangular bounding box. This is analogous to
  * java.awt's <code>Rectangle</code> class, except that objects of this type
@@ -19,6 +17,7 @@ public class Bounds {
     private final int y;
     private final int wid;
     private final int ht;
+
     private Bounds(int x, int y, int wid, int ht) {
         this.x = x;
         this.y = y;

@@ -4,10 +4,7 @@
 package com.cburch.logisim.comp;
 
 import com.cburch.logisim.LogisimVersion;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.util.StringGetter;
-
-import java.awt.*;
 
 /**
  * Represents a category of components that appear in a circuit. This class

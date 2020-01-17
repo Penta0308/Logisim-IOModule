@@ -6,13 +6,9 @@ package com.cburch.logisim.std.wiring;
 import com.cburch.logisim.circuit.CircuitState;
 import com.cburch.logisim.circuit.RadixOption;
 import com.cburch.logisim.comp.Component;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 public class Clock extends InstanceFactory {

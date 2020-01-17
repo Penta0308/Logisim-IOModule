@@ -13,16 +13,15 @@ import com.cburch.logisim.proj.ProjectListener;
 import com.cburch.logisim.proj.Projects;
 import com.cburch.logisim.util.WindowMenuItemManager;
 
-import javax.swing.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.util.*;
 
 public class WindowManagers {
     private static boolean initialized = false;
     private static MyListener myListener = new MyListener();
     private static HashMap<Project, ProjectManager> projectMap
             = new LinkedHashMap<Project, ProjectManager>();
+
     private WindowManagers() {
     }
 

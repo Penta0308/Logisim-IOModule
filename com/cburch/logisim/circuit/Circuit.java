@@ -5,7 +5,6 @@ package com.cburch.logisim.circuit;
 
 import com.cburch.logisim.circuit.appear.CircuitAppearance;
 import com.cburch.logisim.comp.Component;
-import com.cburch.logisim.comp.*;
 import com.cburch.logisim.data.AttributeSet;
 import com.cburch.logisim.data.BitWidth;
 import com.cburch.logisim.data.Bounds;
@@ -14,9 +13,7 @@ import com.cburch.logisim.std.wiring.Clock;
 import com.cburch.logisim.util.CollectionUtil;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 
-import java.awt.*;
 import java.util.List;
-import java.util.*;
 
 public class Circuit {
     CircuitWires wires = new CircuitWires();
@@ -31,6 +28,7 @@ public class Circuit {
     private ArrayList<Component> clocks = new ArrayList<Component>();
     private CircuitLocker locker;
     private WeakHashMap<Component, Circuit> circuitsUsingThis;
+
     public Circuit(String name) {
         appearance = new CircuitAppearance(this);
         staticAttrs = CircuitAttributes.createBaseAttrs(this, name);

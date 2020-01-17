@@ -3,12 +3,10 @@
 
 package com.cburch.logisim.gui.menu;
 
-import com.cburch.logisim.circuit.*;
 import com.cburch.logisim.gui.log.LogFrame;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.event.ActionEvent;
@@ -52,6 +50,7 @@ class MenuSimulate extends Menu {
     private ArrayList<CircuitStateMenuItem> upStateItems
             = new ArrayList<CircuitStateMenuItem>();
     private JMenuItem log = new JMenuItem();
+
     public MenuSimulate(LogisimMenuBar menubar) {
         this.menubar = menubar;
 

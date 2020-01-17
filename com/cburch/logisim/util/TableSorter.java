@@ -1,18 +1,14 @@
 // retrieved from http://ouroborus.org/java/2.1/TableSorter.java
 package com.cburch.logisim.util;
 
-import javax.swing.*;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
-import javax.swing.table.*;
-import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
-import java.util.*;
 
 /**
  * TableSorter is a decorator for TableModels; adding sorting

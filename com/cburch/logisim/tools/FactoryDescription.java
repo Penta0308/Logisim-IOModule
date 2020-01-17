@@ -7,7 +7,6 @@ import com.cburch.logisim.comp.ComponentFactory;
 import com.cburch.logisim.util.Icons;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.List;
 
@@ -30,6 +29,7 @@ public class FactoryDescription {
     private boolean factoryLoadAttempted;
     private ComponentFactory factory;
     private StringGetter toolTip;
+
     public FactoryDescription(String name, StringGetter displayName,
                               String iconName, String factoryClassName) {
         this(name, displayName, factoryClassName);

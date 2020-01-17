@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import java.util.*;
-
 public class CollectionUtil {
     private CollectionUtil() {
     }

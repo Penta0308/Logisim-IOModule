@@ -18,7 +18,6 @@ import com.cburch.logisim.proj.ProjectListener;
 import com.cburch.logisim.tools.Tool;
 import com.cburch.logisim.util.InputEventUtil;
 
-import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
@@ -31,6 +30,7 @@ class LayoutToolbarModel extends AbstractToolbarModel {
     private MyListener myListener;
     private List<ToolbarItem> items;
     private Tool haloedTool;
+
     public LayoutToolbarModel(Frame frame, Project proj) {
         this.frame = frame;
         this.proj = proj;

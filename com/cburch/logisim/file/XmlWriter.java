@@ -23,7 +23,6 @@ import org.w3c.dom.Element;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.OutputStream;
@@ -35,6 +34,7 @@ class XmlWriter {
     private Document doc;
     private LibraryLoader loader;
     private HashMap<Library, String> libs = new HashMap<Library, String>();
+
     private XmlWriter(LogisimFile file, Document doc, LibraryLoader loader) {
         this.file = file;
         this.doc = doc;

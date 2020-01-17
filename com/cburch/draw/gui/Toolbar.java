@@ -9,8 +9,6 @@ import com.cburch.draw.tools.AbstractTool;
 import com.cburch.draw.tools.DrawingAttributeSet;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -22,6 +20,7 @@ class Toolbar extends JComponent {
     private Canvas canvas;
     private AbstractTool[][] tools;
     private Listener listener;
+
     public Toolbar(Canvas canvas, DrawingAttributeSet attrs) {
         this.canvas = canvas;
         this.tools = new AbstractTool[][]{AbstractTool.getTools(attrs)};

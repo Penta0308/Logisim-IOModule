@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.circuit;
 
-import com.cburch.logisim.comp.*;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.StdAttr;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.tools.MenuExtender;
@@ -12,8 +10,6 @@ import com.cburch.logisim.tools.ToolTipMaker;
 import com.cburch.logisim.tools.WireRepair;
 import com.cburch.logisim.tools.WireRepairData;
 import com.cburch.logisim.util.StringUtil;
-
-import javax.swing.*;
 
 public class Splitter extends ManagedComponent
         implements WireRepair, ToolTipMaker, MenuExtender, AttributeListener {

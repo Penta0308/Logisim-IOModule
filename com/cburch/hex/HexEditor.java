@@ -3,15 +3,13 @@
 
 package com.cburch.hex;
 
-import javax.swing.*;
-import java.awt.*;
-
 public class HexEditor extends JComponent implements Scrollable {
     private HexModel model;
     private Listener listener;
     private Measures measures;
     private Caret caret;
     private Highlighter highlighter;
+
     public HexEditor(HexModel model) {
         this.model = model;
         this.listener = new Listener();

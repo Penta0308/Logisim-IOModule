@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.gui.generic;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.beans.PropertyChangeEvent;
@@ -15,6 +13,7 @@ public class ZoomControl extends JPanel {
     private JSpinner spinner;
     private SpinnerModel spinnerModel;
     private GridIcon grid;
+
     public ZoomControl(ZoomModel model) {
         super(new BorderLayout());
         this.model = model;

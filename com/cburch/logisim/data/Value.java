@@ -5,7 +5,6 @@ package com.cburch.logisim.data;
 
 import com.cburch.logisim.util.Cache;
 
-import java.awt.*;
 import java.util.Arrays;
 
 public class Value {

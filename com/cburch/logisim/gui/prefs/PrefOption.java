@@ -5,8 +5,6 @@ package com.cburch.logisim.gui.prefs;
 
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-
 class PrefOption {
     private Object value;
     private StringGetter getter;

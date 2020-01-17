@@ -31,12 +31,9 @@ import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
-import java.util.*;
 
 public class SelectTool extends Tool {
     private static final Cursor selectCursor
@@ -64,6 +61,7 @@ public class SelectTool extends Tool {
     private HashMap<Component, KeyConfigurator> keyHandlers;
     private HashSet<Selection> selectionsAdded;
     private Listener selListener;
+
     public SelectTool() {
         start = null;
         state = IDLE;

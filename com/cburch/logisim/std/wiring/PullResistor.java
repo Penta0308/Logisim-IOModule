@@ -3,14 +3,9 @@
 
 package com.cburch.logisim.std.wiring;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
-
-import javax.swing.*;
-import java.awt.*;
 
 public class PullResistor extends InstanceFactory {
     public static final Attribute<AttributeOption> ATTR_PULL_TYPE

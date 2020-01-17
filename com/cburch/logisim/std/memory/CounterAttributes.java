@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.std.memory;
 
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.StdAttr;
 
 import java.util.List;

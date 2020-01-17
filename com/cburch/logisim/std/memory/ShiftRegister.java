@@ -3,14 +3,10 @@
 
 package com.cburch.logisim.std.memory;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.tools.key.IntegerConfigurator;
 import com.cburch.logisim.tools.key.JoinedConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class ShiftRegister extends InstanceFactory {
     static final Attribute<Integer> ATTR_LENGTH = Attributes.forIntegerRange("length",

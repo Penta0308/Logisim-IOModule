@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.circuit;
 
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.util.StringGetter;
 
 public abstract class RadixOption extends AttributeOption {
@@ -20,6 +19,7 @@ public abstract class RadixOption extends AttributeOption {
             = Attributes.forOption("radix", Strings.getter("radixAttr"), OPTIONS);
     private String saveName;
     private StringGetter displayGetter;
+
     private RadixOption(String saveName, StringGetter displayGetter) {
         super(saveName, displayGetter);
         this.saveName = saveName;

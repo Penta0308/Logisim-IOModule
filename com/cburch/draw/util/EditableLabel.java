@@ -5,8 +5,6 @@ package com.cburch.draw.util;
 
 import com.cburch.logisim.data.Bounds;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;

@@ -9,8 +9,6 @@ import com.cburch.logisim.analyze.model.TruthTableEvent;
 import com.cburch.logisim.analyze.model.TruthTableListener;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 class TableTab extends JPanel implements TruthTablePanel, TabInterface {
@@ -29,6 +27,7 @@ class TableTab extends JPanel implements TruthTablePanel, TabInterface {
     private Entry provisionalValue = null;
     private TableTabCaret caret;
     private TableTabClip clip;
+
     public TableTab(TruthTable table) {
         this.table = table;
         table.addTruthTableListener(myListener);

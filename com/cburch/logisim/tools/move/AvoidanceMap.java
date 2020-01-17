@@ -9,7 +9,6 @@ import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 
 import java.io.PrintStream;
-import java.util.*;
 
 class AvoidanceMap {
     private final HashMap<Location, String> avoid;

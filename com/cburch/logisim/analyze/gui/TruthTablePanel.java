@@ -6,7 +6,6 @@ package com.cburch.logisim.analyze.gui;
 import com.cburch.logisim.analyze.model.Entry;
 import com.cburch.logisim.analyze.model.TruthTable;
 
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 interface TruthTablePanel {

@@ -36,6 +36,7 @@ class MenuListener {
     private EditListener editListener = new EditListener();
     private ProjectMenuListener projectListener = new ProjectMenuListener();
     private SimulateMenuListener simulateListener = new SimulateMenuListener();
+
     public MenuListener(Frame frame, LogisimMenuBar menubar) {
         this.frame = frame;
         this.menubar = menubar;

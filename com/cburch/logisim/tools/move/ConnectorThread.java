@@ -16,6 +16,7 @@ class ConnectorThread extends Thread {
     private transient boolean overrideRequest;
     private MoveRequest nextRequest;
     private MoveRequest processingRequest;
+
     private ConnectorThread() {
         lock = new Object();
         overrideRequest = false;

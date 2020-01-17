@@ -6,7 +6,6 @@ package com.cburch.logisim.comp;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 

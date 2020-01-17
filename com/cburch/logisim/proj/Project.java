@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.proj;
 
-import com.cburch.logisim.circuit.*;
-import com.cburch.logisim.file.*;
 import com.cburch.logisim.gui.log.LogFrame;
 import com.cburch.logisim.gui.main.Canvas;
 import com.cburch.logisim.gui.main.Frame;
@@ -17,7 +15,6 @@ import com.cburch.logisim.tools.Tool;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 import com.cburch.logisim.util.JFileChoosers;
 
-import javax.swing.*;
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -43,6 +40,7 @@ public class Project {
     private Dependencies depends;
     private MyListener myListener = new MyListener();
     private boolean startupScreen = false;
+
     public Project(LogisimFile file) {
         addLibraryListener(myListener);
         setLogisimFile(file);

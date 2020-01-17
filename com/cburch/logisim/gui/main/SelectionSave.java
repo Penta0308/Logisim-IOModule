@@ -11,6 +11,7 @@ import java.util.HashSet;
 class SelectionSave {
     private Component[] floating;
     private Component[] anchored;
+
     private SelectionSave() {
     }
 

@@ -5,8 +5,6 @@ package com.cburch.logisim.tools;
 
 import com.cburch.logisim.proj.Project;
 
-import javax.swing.*;
-
 public interface MenuExtender {
     public void configureMenu(JPopupMenu menu, Project proj);
 }

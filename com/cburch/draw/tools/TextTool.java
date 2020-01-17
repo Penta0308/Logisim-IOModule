@@ -17,8 +17,6 @@ import com.cburch.logisim.data.AttributeListener;
 import com.cburch.logisim.data.Location;
 import com.cburch.logisim.util.Icons;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
@@ -32,6 +30,7 @@ public class TextTool extends AbstractTool {
     private Text curText;
     private Canvas curCanvas;
     private boolean isTextNew;
+
     public TextTool(DrawingAttributeSet attrs) {
         this.attrs = attrs;
         curText = null;

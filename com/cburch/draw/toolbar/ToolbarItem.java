@@ -3,8 +3,6 @@
 
 package com.cburch.draw.toolbar;
 
-import java.awt.*;
-
 public interface ToolbarItem {
     public boolean isSelectable();
 

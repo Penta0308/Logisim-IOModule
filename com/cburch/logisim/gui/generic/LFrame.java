@@ -5,8 +5,6 @@ package com.cburch.logisim.gui.generic;
 
 import com.cburch.logisim.util.WindowClosable;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.lang.reflect.Method;
 import java.net.URL;

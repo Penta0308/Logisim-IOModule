@@ -9,8 +9,6 @@ import com.cburch.logisim.data.Location;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import java.awt.*;
-
 class SvgCreator {
     private SvgCreator() {
     }

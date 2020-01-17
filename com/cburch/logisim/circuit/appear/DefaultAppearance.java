@@ -12,9 +12,7 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.awt.*;
 import java.util.List;
-import java.util.*;
 
 class DefaultAppearance {
     private static final int OFFS = 50;

@@ -4,13 +4,10 @@
 package com.cburch.logisim.circuit;
 
 import com.cburch.logisim.comp.Component;
-import com.cburch.logisim.comp.*;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.tools.CustomHandles;
 import com.cburch.logisim.util.Cache;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.util.AbstractList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -39,6 +36,7 @@ public final class Wire implements Component, AttributeSet, CustomHandles,
     final Location e0;
     final Location e1;
     final boolean is_x_equal;
+
     private Wire(Location e0, Location e1) {
         this.is_x_equal = e0.getX() == e1.getX();
         if (is_x_equal) {

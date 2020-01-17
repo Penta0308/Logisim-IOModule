@@ -7,7 +7,6 @@ import com.cburch.logisim.circuit.CircuitState;
 import com.cburch.logisim.data.Value;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 
-import javax.swing.*;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Iterator;

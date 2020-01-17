@@ -4,13 +4,9 @@
 package com.cburch.logisim.std.plexers;
 
 import com.cburch.logisim.LogisimVersion;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.tools.key.JoinedConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class Multiplexer extends InstanceFactory {
     public Multiplexer() {

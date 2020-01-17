@@ -3,14 +3,13 @@
 
 package com.cburch.logisim.analyze.model;
 
-import java.util.*;
-
 public class TruthTable {
     private static final Entry DEFAULT_ENTRY = Entry.DONT_CARE;
     private MyListener myListener = new MyListener();
     private List<TruthTableListener> listeners = new ArrayList<TruthTableListener>();
     private AnalyzerModel model;
     private HashMap<String, Entry[]> outputColumns = new HashMap<String, Entry[]>();
+
     public TruthTable(AnalyzerModel model) {
         this.model = model;
         model.getInputs().addVariableListListener(myListener);

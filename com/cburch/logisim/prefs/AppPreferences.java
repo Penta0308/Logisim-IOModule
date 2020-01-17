@@ -11,7 +11,6 @@ import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.PropertyChangeWeakSupport;
 
-import javax.swing.*;
 import java.beans.PropertyChangeListener;
 import java.io.File;
 import java.io.FileInputStream;

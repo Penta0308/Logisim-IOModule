@@ -3,11 +3,8 @@
 
 package com.cburch.hex;
 
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import java.awt.*;
-import java.awt.event.*;
 import java.util.ArrayList;
 
 public class Caret {
@@ -18,6 +15,7 @@ public class Caret {
     private long mark;
     private long cursor;
     private Object highlight;
+
     Caret(HexEditor hex) {
         this.hex = hex;
         this.listeners = new ArrayList<ChangeListener>();

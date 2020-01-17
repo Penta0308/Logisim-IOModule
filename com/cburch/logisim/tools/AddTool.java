@@ -11,7 +11,6 @@ import com.cburch.logisim.circuit.SubcircuitFactory;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentDrawContext;
 import com.cburch.logisim.comp.ComponentFactory;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.gui.main.Canvas;
 import com.cburch.logisim.gui.main.SelectionActions;
 import com.cburch.logisim.gui.main.ToolAttributeAction;
@@ -24,8 +23,6 @@ import com.cburch.logisim.tools.key.KeyConfigurationResult;
 import com.cburch.logisim.tools.key.KeyConfigurator;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
@@ -52,6 +49,7 @@ public class AddTool extends Tool {
     private Action lastAddition;
     private boolean keyHandlerTried;
     private KeyConfigurator keyHandler;
+
     public AddTool(Class<? extends Library> base, FactoryDescription description) {
         this.descriptionBase = base;
         this.description = description;

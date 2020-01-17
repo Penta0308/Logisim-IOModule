@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.analyze.model;
 
-import java.util.*;
-
 public class OutputExpressions {
     private MyListener myListener = new MyListener();
     private AnalyzerModel model;
@@ -12,6 +10,7 @@ public class OutputExpressions {
     private ArrayList<OutputExpressionsListener> listeners
             = new ArrayList<OutputExpressionsListener>();
     private boolean updatingTable = false;
+
     public OutputExpressions(AnalyzerModel model) {
         this.model = model;
         model.getInputs().addVariableListListener(myListener);

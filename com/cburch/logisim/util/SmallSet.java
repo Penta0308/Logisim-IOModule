@@ -3,13 +3,12 @@
 
 package com.cburch.logisim.util;
 
-import java.util.*;
-
 public class SmallSet<E> extends AbstractSet<E> {
     private static final int HASH_POINT = 4;
     private int size = 0;
     private int version = 0;
     private Object values = null;
+
     public SmallSet() {
     }
 

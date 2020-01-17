@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 public class VerticalSplitPane extends JPanel {
@@ -12,9 +10,11 @@ public class VerticalSplitPane extends JPanel {
     private JComponent comp1;
     private MyDragbar dragbar;
     private double fraction;
+
     public VerticalSplitPane(JComponent comp0, JComponent comp1) {
         this(comp0, comp1, 0.5);
     }
+
     public VerticalSplitPane(JComponent comp0, JComponent comp1,
                              double fraction) {
         this.comp0 = comp0;

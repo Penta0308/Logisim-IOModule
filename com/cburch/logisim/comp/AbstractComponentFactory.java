@@ -4,14 +4,10 @@
 package com.cburch.logisim.comp;
 
 import com.cburch.logisim.LogisimVersion;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
 import com.cburch.logisim.util.StringGetter;
 import com.cburch.logisim.util.StringUtil;
-
-import javax.swing.*;
-import java.awt.*;
 
 public abstract class AbstractComponentFactory implements ComponentFactory {
     private static final Icon toolIcon = Icons.getIcon("subcirc.gif");

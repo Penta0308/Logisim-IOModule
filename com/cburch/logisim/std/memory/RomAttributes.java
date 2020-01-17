@@ -25,6 +25,7 @@ class RomAttributes extends AbstractAttributeSet {
     private BitWidth addrBits = BitWidth.create(8);
     private BitWidth dataBits = BitWidth.create(8);
     private MemContents contents;
+
     RomAttributes() {
         contents = MemContents.create(addrBits.getWidth(), dataBits.getWidth());
     }

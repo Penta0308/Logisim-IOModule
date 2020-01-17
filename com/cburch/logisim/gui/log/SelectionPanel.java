@@ -3,13 +3,11 @@
 
 package com.cburch.logisim.gui.log;
 
-import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.TreePath;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -25,6 +23,7 @@ class SelectionPanel extends LogPanel {
     private JButton moveDown;
     private JButton remove;
     private SelectionList list;
+
     public SelectionPanel(LogFrame window) {
         super(window);
         selector = new ComponentSelector(getModel());

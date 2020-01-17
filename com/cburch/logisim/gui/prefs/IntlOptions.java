@@ -6,14 +6,12 @@ package com.cburch.logisim.gui.prefs;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.util.LocaleManager;
 
-import javax.swing.*;
-import java.awt.*;
-
 class IntlOptions extends OptionsPanel {
     private JLabel localeLabel = new RestrictedLabel();
     private JComponent locale;
     private PrefBoolean replAccents;
     private PrefOptionList gateShape;
+
     public IntlOptions(PreferencesFrame window) {
         super(window);
 

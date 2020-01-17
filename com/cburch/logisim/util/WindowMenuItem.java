@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 
 class WindowMenuItem extends JRadioButtonMenuItem {

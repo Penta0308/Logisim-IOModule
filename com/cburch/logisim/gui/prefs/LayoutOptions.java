@@ -7,8 +7,6 @@ import com.cburch.logisim.circuit.RadixOption;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.util.TableLayout;
 
-import javax.swing.*;
-
 class LayoutOptions extends OptionsPanel {
     private PrefBoolean[] checks;
     private PrefOptionList afterAdd;

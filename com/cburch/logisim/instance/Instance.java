@@ -10,7 +10,6 @@ import com.cburch.logisim.data.AttributeSet;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 
-import java.awt.*;
 import java.util.List;
 
 public class Instance {

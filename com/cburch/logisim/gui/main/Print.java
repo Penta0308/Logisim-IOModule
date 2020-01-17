@@ -11,8 +11,6 @@ import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;

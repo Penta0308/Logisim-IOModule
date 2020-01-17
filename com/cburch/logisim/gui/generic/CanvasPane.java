@@ -5,8 +5,6 @@ package com.cburch.logisim.gui.generic;
 
 import com.cburch.logisim.util.MacCompatibility;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.beans.PropertyChangeEvent;
@@ -16,6 +14,7 @@ public class CanvasPane extends JScrollPane {
     private CanvasPaneContents contents;
     private Listener listener;
     private ZoomModel zoomModel;
+
     public CanvasPane(CanvasPaneContents contents) {
         super((Component) contents);
         this.contents = contents;

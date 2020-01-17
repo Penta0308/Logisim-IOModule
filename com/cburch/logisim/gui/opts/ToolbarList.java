@@ -11,8 +11,6 @@ import com.cburch.logisim.file.ToolbarData.ToolbarListener;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.tools.Tool;
 
-import javax.swing.*;
-import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 

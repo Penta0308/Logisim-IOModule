@@ -6,8 +6,6 @@ package com.cburch.logisim.gui.opts;
 import com.cburch.logisim.data.AttributeOption;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-
 class ComboOption {
     private Object value;
     private StringGetter getter;

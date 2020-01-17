@@ -8,12 +8,10 @@ import com.cburch.logisim.analyze.model.VariableListEvent;
 import com.cburch.logisim.analyze.model.VariableListListener;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -28,6 +26,7 @@ class VariableTab extends AnalyzerTab implements TabInterface {
     private JButton add = new JButton();
     private JButton rename = new JButton();
     private JLabel error = new JLabel(" ");
+
     VariableTab(VariableList data) {
         this.data = data;
 

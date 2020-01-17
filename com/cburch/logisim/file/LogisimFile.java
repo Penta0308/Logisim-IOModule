@@ -19,7 +19,6 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
-import java.io.*;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -36,6 +35,7 @@ public class LogisimFile extends Library implements LibraryEventSource {
     private Circuit main = null;
     private String name;
     private boolean dirty = false;
+
     LogisimFile(Loader loader) {
         this.loader = loader;
 

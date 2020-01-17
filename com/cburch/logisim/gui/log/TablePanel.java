@@ -6,10 +6,8 @@ package com.cburch.logisim.gui.log;
 import com.cburch.logisim.data.Value;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 class TablePanel extends LogPanel {
@@ -24,6 +22,7 @@ class TablePanel extends LogPanel {
     private int tableWidth;
     private int tableHeight;
     private VerticalScrollBar vsb;
+
     public TablePanel(LogFrame frame) {
         super(frame);
         vsb = new VerticalScrollBar();

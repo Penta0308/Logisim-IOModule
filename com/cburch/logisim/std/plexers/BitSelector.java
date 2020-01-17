@@ -3,13 +3,9 @@
 
 package com.cburch.logisim.std.plexers;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.tools.key.JoinedConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class BitSelector extends InstanceFactory {
     public static final Attribute<BitWidth> GROUP_ATTR

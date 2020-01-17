@@ -5,11 +5,9 @@ package com.cburch.logisim.circuit;
 
 import com.cburch.logisim.circuit.appear.CircuitAppearanceEvent;
 import com.cburch.logisim.circuit.appear.CircuitAppearanceListener;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
 
@@ -50,6 +48,7 @@ public class CircuitAttributes extends AbstractAttributeSet {
     private Font labelFont;
     private MyListener listener;
     private Instance[] pinInstances;
+
     public CircuitAttributes(Circuit source) {
         this.source = source;
         subcircInstance = null;

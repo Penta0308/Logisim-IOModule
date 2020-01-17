@@ -7,9 +7,6 @@ import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.data.BitWidth;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Value;
-import com.cburch.logisim.instance.*;
-
-import java.awt.*;
 
 public class HexDigit extends InstanceFactory {
     public HexDigit() {

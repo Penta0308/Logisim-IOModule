@@ -3,13 +3,9 @@
 
 package com.cburch.logisim.std.memory;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.StringUtil;
-
-import java.awt.*;
 
 public class Register extends InstanceFactory {
     private static final int DELAY = 8;

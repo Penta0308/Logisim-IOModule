@@ -12,6 +12,7 @@ public class ArraySet<E> extends AbstractSet<E> {
     private static final Object[] EMPTY_ARRAY = new Object[0];
     private int version = 0;
     private Object[] values = EMPTY_ARRAY;
+
     public ArraySet() {
     }
 

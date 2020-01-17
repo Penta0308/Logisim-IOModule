@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.tools;
 
-import com.cburch.logisim.circuit.*;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentDrawContext;
 import com.cburch.logisim.comp.ComponentUserEvent;
@@ -15,8 +14,6 @@ import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.util.Icons;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
@@ -29,6 +26,7 @@ public class PokeTool extends Tool {
     private Circuit pokedCircuit;
     private Component pokedComponent;
     private Caret pokeCaret;
+
     public PokeTool() {
         this.listener = new Listener();
     }

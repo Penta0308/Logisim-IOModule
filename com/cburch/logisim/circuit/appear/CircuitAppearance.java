@@ -14,9 +14,7 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 
-import java.awt.*;
 import java.util.List;
-import java.util.*;
 
 public class CircuitAppearance extends Drawing {
     private Circuit circuit;
@@ -26,6 +24,7 @@ public class CircuitAppearance extends Drawing {
     private MyListener myListener;
     private boolean isDefault;
     private boolean suppressRecompute;
+
     public CircuitAppearance(Circuit circuit) {
         this.circuit = circuit;
         listeners = new EventSourceWeakSupport<CircuitAppearanceListener>();

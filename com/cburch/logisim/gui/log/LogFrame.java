@@ -19,8 +19,6 @@ import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.StringUtil;
 import com.cburch.logisim.util.WindowMenuItemManager;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -37,6 +35,7 @@ public class LogFrame extends LFrame {
     private LogPanel[] panels;
     private JTabbedPane tabbedPane;
     private JButton close = new JButton();
+
     public LogFrame(Project project) {
         this.project = project;
         this.windowManager = new WindowMenuManager();

@@ -3,12 +3,12 @@
 
 package com.cburch.hex;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 class Highlighter {
     private HexEditor hex;
     private ArrayList<Entry> entries;
+
     Highlighter(HexEditor hex) {
         this.hex = hex;
         this.entries = new ArrayList<Entry>();

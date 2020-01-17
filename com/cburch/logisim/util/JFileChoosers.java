@@ -5,7 +5,6 @@ package com.cburch.logisim.util;
 
 import com.cburch.logisim.prefs.AppPreferences;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 

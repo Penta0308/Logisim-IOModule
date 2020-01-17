@@ -14,8 +14,6 @@ import com.cburch.logisim.instance.InstancePainter;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
-
 public class ComponentDrawContext {
     private static final int PIN_OFFS = 2;
     private static final int PIN_RAD = 4;

@@ -7,7 +7,6 @@ import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.data.BitWidth;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Value;
-import com.cburch.logisim.instance.*;
 
 /**
  * This component takes a multibit input and outputs the value that follows it

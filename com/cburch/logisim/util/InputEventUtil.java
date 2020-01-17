@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import java.awt.*;
 import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Iterator;

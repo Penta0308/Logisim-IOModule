@@ -6,8 +6,6 @@ package com.cburch.logisim.data;
 
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-
 public class BitWidth implements Comparable<BitWidth> {
     public static final BitWidth UNKNOWN = new BitWidth(0);
     public static final BitWidth ONE = new BitWidth(1);

@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -19,6 +17,7 @@ public class WindowMenu extends JMenu {
     private JRadioButtonMenuItem nullItem = new JRadioButtonMenuItem();
     private ArrayList<WindowMenuItem> persistentItems = new ArrayList<WindowMenuItem>();
     private ArrayList<WindowMenuItem> transientItems = new ArrayList<WindowMenuItem>();
+
     public WindowMenu(JFrame owner) {
         this.owner = owner;
         WindowMenuManager.addMenu(this);

@@ -8,9 +8,7 @@ import com.cburch.logisim.analyze.model.Expression;
 import com.cburch.logisim.analyze.model.Expressions;
 import com.cburch.logisim.circuit.ExpressionComputer;
 import com.cburch.logisim.comp.TextField;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.file.Options;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.tools.WireRepair;
 import com.cburch.logisim.tools.WireRepairData;
@@ -21,8 +19,6 @@ import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-import java.awt.*;
 import java.util.Map;
 
 abstract class AbstractGate extends InstanceFactory {

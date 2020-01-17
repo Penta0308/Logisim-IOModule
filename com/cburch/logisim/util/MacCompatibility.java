@@ -5,7 +5,6 @@ package com.cburch.logisim.util;
 
 import net.roydesign.mac.MRJAdapter;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 

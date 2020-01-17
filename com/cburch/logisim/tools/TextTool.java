@@ -17,7 +17,6 @@ import com.cburch.logisim.proj.Action;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.std.base.Text;
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
@@ -31,6 +30,7 @@ public class TextTool extends Tool {
     private Canvas caretCanvas = null;
     private Circuit caretCircuit = null;
     private Component caretComponent = null;
+
     public TextTool() {
         attrs = Text.FACTORY.createAttributeSet();
     }

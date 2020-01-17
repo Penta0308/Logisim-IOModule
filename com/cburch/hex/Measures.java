@@ -3,8 +3,6 @@
 
 package com.cburch.hex;
 
-import java.awt.*;
-
 class Measures {
     private HexEditor hex;
     private int headerChars;

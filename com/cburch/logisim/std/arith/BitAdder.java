@@ -3,14 +3,10 @@
 
 package com.cburch.logisim.std.arith;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.tools.key.IntegerConfigurator;
 import com.cburch.logisim.tools.key.JoinedConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class BitAdder extends InstanceFactory {
     static final Attribute<Integer> NUM_INPUTS

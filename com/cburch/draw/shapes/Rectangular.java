@@ -10,7 +10,6 @@ import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 import com.cburch.logisim.util.UnmodifiableList;
 
-import java.awt.*;
 import java.util.List;
 
 abstract class Rectangular extends FillableCanvasObject {

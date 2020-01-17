@@ -6,9 +6,7 @@ package com.cburch.logisim.gui.main;
 import com.cburch.logisim.comp.ComponentDrawContext;
 import com.cburch.logisim.comp.ComponentFactory;
 
-import javax.swing.*;
 import javax.swing.tree.DefaultTreeCellRenderer;
-import java.awt.*;
 
 public class SimulationTreeRenderer extends DefaultTreeCellRenderer {
     @Override

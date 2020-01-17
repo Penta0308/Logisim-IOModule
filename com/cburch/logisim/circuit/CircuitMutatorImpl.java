@@ -7,8 +7,6 @@ import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.data.AttributeSet;
 
-import java.util.*;
-
 class CircuitMutatorImpl implements CircuitMutator {
     private ArrayList<CircuitChange> log;
     private HashMap<Circuit, ReplacementMap> replacements;

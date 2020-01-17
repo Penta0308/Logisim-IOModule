@@ -13,8 +13,6 @@ import com.cburch.logisim.instance.InstanceState;
 import com.cburch.logisim.tools.WireRepairData;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
-
 class XnorGate extends AbstractGate {
     public static XnorGate FACTORY = new XnorGate();
 

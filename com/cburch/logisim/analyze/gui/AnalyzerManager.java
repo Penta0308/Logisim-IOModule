@@ -7,8 +7,6 @@ import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.WindowMenuItemManager;
 
-import javax.swing.*;
-
 public class AnalyzerManager extends WindowMenuItemManager
         implements LocaleListener {
     private static Analyzer analysisWindow = null;

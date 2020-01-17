@@ -9,9 +9,6 @@ import com.cburch.draw.model.Handle;
 import com.cburch.draw.model.HandleGesture;
 import com.cburch.logisim.data.Location;
 
-import java.awt.*;
-import java.util.*;
-
 public class Selection {
     private static final String MOVING_HANDLE = "movingHandle";
     private static final String TRANSLATING = "translating";

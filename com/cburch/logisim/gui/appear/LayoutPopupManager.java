@@ -12,8 +12,6 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.gui.generic.CanvasPane;
 import com.cburch.logisim.instance.Instance;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;

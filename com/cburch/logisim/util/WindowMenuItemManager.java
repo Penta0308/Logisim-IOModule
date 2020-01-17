@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.util.HashMap;
@@ -16,6 +15,7 @@ public abstract class WindowMenuItemManager {
     private boolean inManager = false;
     private HashMap<WindowMenu, JRadioButtonMenuItem> menuItems
             = new HashMap<WindowMenu, JRadioButtonMenuItem>();
+
     public WindowMenuItemManager(String text, boolean persistent) {
         this.text = text;
         this.persistent = persistent;

@@ -6,7 +6,6 @@ package com.cburch.logisim.circuit;
 import com.cburch.logisim.comp.Component;
 
 import java.io.PrintStream;
-import java.util.*;
 
 public class ReplacementMap {
     private boolean frozen;

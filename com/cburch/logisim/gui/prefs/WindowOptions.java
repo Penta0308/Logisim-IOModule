@@ -7,8 +7,6 @@ import com.cburch.logisim.data.Direction;
 import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.util.TableLayout;
 
-import javax.swing.*;
-
 class WindowOptions extends OptionsPanel {
     private PrefBoolean[] checks;
     private PrefOptionList toolbarPlacement;

@@ -3,13 +3,12 @@
 
 package com.cburch.logisim.analyze.model;
 
-import java.util.*;
-
 public class Implicant implements Comparable<Implicant> {
     static Implicant MINIMAL_IMPLICANT = new Implicant(0, -1);
     static List<Implicant> MINIMAL_LIST = Arrays.asList(new Implicant[]{MINIMAL_IMPLICANT});
     private int unknowns;
     private int values;
+
     private Implicant(int unknowns, int values) {
         this.unknowns = unknowns;
         this.values = values;

@@ -8,7 +8,6 @@ import com.cburch.draw.actions.ModelReorderAction;
 import com.cburch.draw.canvas.ActionDispatcher;
 import com.cburch.draw.canvas.Canvas;
 import com.cburch.draw.canvas.CanvasTool;
-import com.cburch.draw.model.*;
 import com.cburch.draw.undo.Action;
 import com.cburch.logisim.circuit.Circuit;
 import com.cburch.logisim.circuit.CircuitState;
@@ -19,8 +18,6 @@ import com.cburch.logisim.gui.generic.CanvasPaneContents;
 import com.cburch.logisim.gui.generic.GridPainter;
 import com.cburch.logisim.proj.Project;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -41,6 +38,7 @@ public class AppearanceCanvas extends Canvas
     private CanvasPane canvasPane;
     private Bounds oldPreferredSize;
     private LayoutPopupManager popupManager;
+
     public AppearanceCanvas(CanvasTool selectTool) {
         this.selectTool = selectTool;
         this.grid = new GridPainter(this);

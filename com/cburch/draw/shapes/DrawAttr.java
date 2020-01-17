@@ -9,7 +9,6 @@ import com.cburch.logisim.data.AttributeOption;
 import com.cburch.logisim.data.Attributes;
 import com.cburch.logisim.util.UnmodifiableList;
 
-import java.awt.*;
 import java.util.List;
 
 public class DrawAttr {

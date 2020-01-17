@@ -10,7 +10,6 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.util.UnmodifiableList;
 import org.w3c.dom.Element;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;

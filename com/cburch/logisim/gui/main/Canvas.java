@@ -3,11 +3,8 @@
 
 package com.cburch.logisim.gui.main;
 
-import com.cburch.logisim.circuit.*;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentUserEvent;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.file.*;
 import com.cburch.logisim.gui.generic.CanvasPane;
 import com.cburch.logisim.gui.generic.CanvasPaneContents;
 import com.cburch.logisim.gui.generic.GridPainter;
@@ -15,17 +12,14 @@ import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.proj.ProjectEvent;
 import com.cburch.logisim.proj.ProjectListener;
-import com.cburch.logisim.tools.*;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
 import javax.swing.event.MouseInputListener;
 import javax.swing.event.PopupMenuEvent;
 import javax.swing.event.PopupMenuListener;
-import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -64,6 +58,7 @@ public class Canvas extends JPanel
     private boolean paintDirty = false; // only for within paintComponent
     private boolean inPaint = false; // only for within paintComponent
     private Object repaintLock = new Object(); // for waitForRepaintDone
+
     public Canvas(Project proj) {
         this.proj = proj;
         this.selection = new Selection(proj, this);

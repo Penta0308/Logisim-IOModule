@@ -7,8 +7,6 @@ import com.cburch.logisim.prefs.AppPreferences;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.proj.ProjectActions;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
@@ -22,6 +20,7 @@ class OpenRecent extends JMenu implements PropertyChangeListener {
     private static final int MAX_ITEM_LENGTH = 50;
     private LogisimMenuBar menubar;
     private List<RecentItem> recentItems;
+
     OpenRecent(LogisimMenuBar menubar) {
         this.menubar = menubar;
         this.recentItems = new ArrayList<RecentItem>();

@@ -3,8 +3,6 @@
 
 package com.cburch.draw.model;
 
-import java.util.*;
-
 public class CanvasModelEvent extends EventObject {
     public static final int ACTION_ADDED = 0;
     public static final int ACTION_REMOVED = 1;
@@ -26,6 +24,7 @@ public class CanvasModelEvent extends EventObject {
     private HandleGesture gesture;
     private String oldText;
     private String newText;
+
     private CanvasModelEvent(CanvasModel source, int action,
                              Collection<? extends CanvasObject> affected) {
         super(source);
@@ -42,6 +41,7 @@ public class CanvasModelEvent extends EventObject {
         this.oldText = null;
         this.newText = null;
     }
+
     private CanvasModelEvent(CanvasModel source, int action,
                              Collection<? extends CanvasObject> affected, int dx, int dy) {
         this(source, action, affected);
@@ -49,17 +49,20 @@ public class CanvasModelEvent extends EventObject {
         this.deltaX = dx;
         this.deltaY = dy;
     }
+
     private CanvasModelEvent(CanvasModel source, int action, Handle handle) {
         this(source, action, Collections.singleton(handle.getObject()));
 
         this.handle = handle;
     }
+
     private CanvasModelEvent(CanvasModel source, int action,
                              HandleGesture gesture) {
         this(source, action, gesture.getHandle());
 
         this.gesture = gesture;
     }
+
     private CanvasModelEvent(CanvasModel source, int action,
                              Map<AttributeMapKey, Object> oldValues,
                              Map<AttributeMapKey, Object> newValues) {
@@ -80,6 +83,7 @@ public class CanvasModelEvent extends EventObject {
         this.oldValues = Collections.unmodifiableMap(oldValuesCopy);
         this.newValues = Collections.unmodifiableMap(newValuesCopy);
     }
+
     private CanvasModelEvent(CanvasModel source, int action,
                              Collection<? extends CanvasObject> affected,
                              String oldText, String newText) {
@@ -87,6 +91,7 @@ public class CanvasModelEvent extends EventObject {
         this.oldText = oldText;
         this.newText = newText;
     }
+
     // the boolean parameter is just because the compiler insists upon it to
     // avoid an erasure conflict with the first constructor
     private CanvasModelEvent(boolean dummy, CanvasModel source, int action,

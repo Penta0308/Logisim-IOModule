@@ -4,17 +4,12 @@
 package com.cburch.logisim.std.gates;
 
 import com.cburch.logisim.comp.ComponentFactory;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.file.Options;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.WireRepair;
 import com.cburch.logisim.tools.WireRepairData;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
-
-import javax.swing.*;
-import java.awt.*;
 
 class ControlledBuffer extends InstanceFactory {
     private static final AttributeOption RIGHT_HANDED

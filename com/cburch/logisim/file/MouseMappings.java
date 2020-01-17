@@ -20,6 +20,7 @@ public class MouseMappings {
     private HashMap<Integer, Tool> map;
     private int cache_mods;
     private Tool cache_tool;
+
     public MouseMappings() {
         listeners = new ArrayList<MouseMappingsListener>();
         map = new HashMap<Integer, Tool>();

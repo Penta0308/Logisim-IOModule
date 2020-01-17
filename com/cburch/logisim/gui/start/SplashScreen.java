@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.gui.start;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -39,6 +37,7 @@ public class SplashScreen extends JWindow implements ActionListener {
     JButton close = new JButton(Strings.get("startupCloseButton"));
     JButton cancel = new JButton(Strings.get("startupQuitButton"));
     long startTime = System.currentTimeMillis();
+
     public SplashScreen() {
         JPanel imagePanel = About.getImagePanel();
         imagePanel.setBorder(null);

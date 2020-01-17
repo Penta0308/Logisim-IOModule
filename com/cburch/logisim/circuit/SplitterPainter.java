@@ -9,8 +9,6 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.data.Value;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
-
 class SplitterPainter {
     private static final int SPINE_WIDTH = Wire.WIDTH + 2;
     private static final int SPINE_DOT = Wire.WIDTH + 4;

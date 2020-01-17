@@ -4,7 +4,6 @@
 package com.cburch.logisim.tools;
 
 import com.cburch.logisim.comp.ComponentFactory;
-import com.cburch.logisim.data.*;
 
 import java.util.ArrayList;
 import java.util.List;

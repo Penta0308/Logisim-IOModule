@@ -3,10 +3,6 @@
 
 package com.cburch.logisim.instance;
 
-import com.cburch.logisim.data.*;
-
-import java.awt.*;
-
 public interface StdAttr {
     public static final Attribute<Direction> FACING
             = Attributes.forDirection("facing", Strings.getter("stdFacingAttr"));

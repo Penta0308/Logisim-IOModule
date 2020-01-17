@@ -6,8 +6,6 @@ package com.cburch.draw.util;
 import com.cburch.draw.model.CanvasModel;
 import com.cburch.draw.model.CanvasObject;
 
-import java.util.*;
-
 public class ZOrder {
     private ZOrder() {
     }

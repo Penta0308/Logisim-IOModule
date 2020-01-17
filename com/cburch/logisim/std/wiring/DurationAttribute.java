@@ -7,8 +7,6 @@ import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.util.StringGetter;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
-
 public class DurationAttribute extends Attribute<Integer> {
     private int min;
     private int max;

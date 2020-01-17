@@ -20,8 +20,6 @@ import com.cburch.logisim.std.wiring.Pin;
 import com.cburch.logisim.util.ArraySet;
 import com.cburch.logisim.util.SmallSet;
 
-import java.util.*;
-
 public class CircuitState implements InstanceData {
     private static int lastId = 0;
     HashMap<Location, SetData> causes = new HashMap<Location, SetData>();
@@ -38,6 +36,7 @@ public class CircuitState implements InstanceData {
     private SmallSet<Component> dirtyComponents = new SmallSet<Component>();
     private SmallSet<Location> dirtyPoints = new SmallSet<Location>();
     private int id = lastId++;
+
     public CircuitState(Project proj, Circuit circuit) {
         this.proj = proj;
         this.circuit = circuit;

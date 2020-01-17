@@ -12,8 +12,6 @@ import com.cburch.logisim.instance.InstanceState;
 import com.cburch.logisim.tools.WireRepairData;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
-
 class OrGate extends AbstractGate {
     public static OrGate FACTORY = new OrGate();
 

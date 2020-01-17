@@ -15,17 +15,12 @@ import com.cburch.logisim.data.Direction;
 import com.cburch.logisim.file.LibraryEvent;
 import com.cburch.logisim.file.LibraryListener;
 import com.cburch.logisim.gui.appear.AppearanceView;
-import com.cburch.logisim.gui.generic.*;
 import com.cburch.logisim.gui.menu.LogisimMenuBar;
 import com.cburch.logisim.prefs.AppPreferences;
-import com.cburch.logisim.proj.*;
 import com.cburch.logisim.tools.Tool;
-import com.cburch.logisim.util.*;
 
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeEvent;
@@ -65,6 +60,7 @@ public class Frame extends LFrame implements LocaleListener {
     private AttrTableSelectionModel attrTableSelectionModel;
     // for the Appearance view
     private AppearanceView appearance;
+
     public Frame(Project proj) {
         this.proj = proj;
 

@@ -8,7 +8,6 @@ import com.cburch.logisim.data.Value;
 import com.cburch.logisim.instance.InstancePainter;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.util.HashMap;
 
 class PainterDin {

@@ -13,7 +13,6 @@ import com.cburch.logisim.util.UnmodifiableList;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import java.awt.*;
 import java.awt.geom.GeneralPath;
 import java.util.List;
 import java.util.Random;

@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -14,6 +12,7 @@ public abstract class JDialogOk extends JDialog {
     protected JButton ok = new JButton(Strings.get("dlogOkButton"));
     protected JButton cancel = new JButton(Strings.get("dlogCancelButton"));
     private JPanel contents = new JPanel(new BorderLayout());
+
     public JDialogOk(Dialog parent, String title, boolean model) {
         super(parent, title, true);
         configure();

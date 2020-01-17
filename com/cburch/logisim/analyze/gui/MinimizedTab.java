@@ -8,8 +8,6 @@ import com.cburch.logisim.analyze.model.OutputExpressions;
 import com.cburch.logisim.analyze.model.OutputExpressionsEvent;
 import com.cburch.logisim.analyze.model.OutputExpressionsListener;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
@@ -25,6 +23,7 @@ class MinimizedTab extends AnalyzerTab {
     private MyListener myListener = new MyListener();
     private AnalyzerModel model;
     private OutputExpressions outputExprs;
+
     public MinimizedTab(AnalyzerModel model) {
         this.model = model;
         this.outputExprs = model.getOutputExpressions();
@@ -120,6 +119,7 @@ class MinimizedTab extends AnalyzerTab {
             implements ComboBoxModel {
         private String[] choices;
         private int selected;
+
         private FormatModel() {
             selected = 0;
             choices = new String[2];

@@ -14,12 +14,11 @@ import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.instance.StdAttr;
 import com.cburch.logisim.std.wiring.Pin;
 
-import java.util.*;
-
 public class CircuitPins {
     private PortManager appearanceManager;
     private MyComponentListener myComponentListener;
     private Set<Instance> pins;
+
     CircuitPins(PortManager appearanceManager) {
         this.appearanceManager = appearanceManager;
         myComponentListener = new MyComponentListener();

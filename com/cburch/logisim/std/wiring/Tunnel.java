@@ -4,12 +4,8 @@
 package com.cburch.logisim.std.wiring;
 
 import com.cburch.logisim.comp.TextField;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class Tunnel extends InstanceFactory {
     public static final Tunnel FACTORY = new Tunnel();

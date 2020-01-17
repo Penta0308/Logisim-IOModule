@@ -25,13 +25,10 @@ import com.cburch.logisim.util.JTreeUtil;
 import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 
-import javax.swing.*;
 import javax.swing.event.TreeModelEvent;
 import javax.swing.event.TreeModelListener;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.*;
-import java.awt.*;
 import java.awt.dnd.DnDConstants;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -103,6 +100,7 @@ public class ProjectExplorer extends JTree implements LocaleListener {
     public void localeChanged() {
         model.fireStructureChanged();
     }
+
     public static interface Listener {
         public void selectionChanged(Event event);
 

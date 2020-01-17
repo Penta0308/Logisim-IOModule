@@ -5,9 +5,6 @@ package com.cburch.logisim.data;
 
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-import java.awt.*;
-
 public abstract class Attribute<V> {
     private String name;
     private StringGetter disp;

@@ -11,7 +11,6 @@ import com.cburch.logisim.circuit.Wire;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentDrawContext;
 import com.cburch.logisim.comp.ComponentFactory;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.gui.main.Canvas;
 import com.cburch.logisim.gui.main.Selection;
 import com.cburch.logisim.gui.main.Selection.Event;
@@ -19,10 +18,8 @@ import com.cburch.logisim.gui.main.SelectionActions;
 import com.cburch.logisim.proj.Action;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
-import java.util.*;
 
 public class EditTool extends Tool {
     private static final int CACHE_MAX_SIZE = 32;
@@ -42,6 +39,7 @@ public class EditTool extends Tool {
     private Location wireLoc; // coordinates where to draw wiring indicator, if
     private int pressX; // last coordinate where mouse was pressed
     private int pressY; // (used to determine when a short wire has been clicked)
+
     public EditTool(SelectTool select, WiringTool wiring) {
         this.listener = new Listener();
         this.select = select;

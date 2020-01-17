@@ -6,8 +6,6 @@ package com.cburch.logisim.analyze.gui;
 import com.cburch.logisim.analyze.model.Entry;
 import com.cburch.logisim.analyze.model.TruthTable;
 
-import javax.swing.*;
-import java.awt.datatransfer.*;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.StringTokenizer;

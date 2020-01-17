@@ -5,9 +5,6 @@ package com.cburch.logisim.util;
 
 import com.cburch.logisim.data.Direction;
 
-import javax.swing.*;
-import java.awt.*;
-
 public class Icons {
     private static final String path = "resources/logisim/icons";
 

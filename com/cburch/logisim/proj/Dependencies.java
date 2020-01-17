@@ -18,6 +18,7 @@ import com.cburch.logisim.util.Dag;
 public class Dependencies {
     private MyListener myListener = new MyListener();
     private Dag depends = new Dag();
+
     Dependencies(LogisimFile file) {
         addDependencies(file);
     }

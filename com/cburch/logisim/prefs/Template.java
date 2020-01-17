@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.prefs;
 
-import java.io.*;
-
 public class Template {
     private String contents;
 

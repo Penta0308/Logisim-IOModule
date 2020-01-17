@@ -9,9 +9,7 @@ import com.cburch.logisim.util.JInputComponent;
 import com.cburch.logisim.util.StringGetter;
 import com.connectina.swing.fontchooser.JFontChooser;
 
-import javax.swing.*;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
-import java.awt.*;
 
 public class Attributes {
     private Attributes() {

@@ -6,7 +6,6 @@ package com.cburch.logisim.circuit;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentDrawContext;
 import com.cburch.logisim.comp.EndData;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.instance.StdAttr;
 import com.cburch.logisim.std.wiring.PullResistor;
@@ -15,9 +14,7 @@ import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.IteratorUtil;
 import com.cburch.logisim.util.SmallSet;
 
-import java.awt.*;
 import java.util.List;
-import java.util.*;
 
 class CircuitWires {
     final CircuitPoints points = new CircuitPoints();
@@ -30,6 +27,7 @@ class CircuitWires {
     // derived data
     private Bounds bounds = Bounds.EMPTY_BOUNDS;
     private BundleMap bundleMap = null;
+
     CircuitWires() {
     }
 

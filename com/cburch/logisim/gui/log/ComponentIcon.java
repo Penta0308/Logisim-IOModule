@@ -6,9 +6,6 @@ package com.cburch.logisim.gui.log;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentDrawContext;
 
-import javax.swing.*;
-import java.awt.*;
-
 class ComponentIcon implements Icon {
     public static final int TRIANGLE_NONE = 0;
     public static final int TRIANGLE_CLOSED = 1;

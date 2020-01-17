@@ -14,8 +14,6 @@ import com.cburch.logisim.proj.Projects;
 import com.cburch.logisim.std.gates.CircuitBuilder;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;

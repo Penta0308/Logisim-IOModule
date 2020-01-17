@@ -6,7 +6,6 @@
  */
 package com.cburch.logisim.util;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.image.ColorModel;
 import java.awt.image.PixelGrabber;

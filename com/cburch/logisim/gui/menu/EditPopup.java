@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.gui.menu;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
@@ -12,6 +11,7 @@ import java.util.Map;
 public abstract class EditPopup extends JPopupMenu {
     private Listener listener;
     private Map<LogisimMenuItem, JMenuItem> items;
+
     public EditPopup() {
         this(false);
     }

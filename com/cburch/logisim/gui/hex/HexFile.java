@@ -5,13 +5,13 @@ package com.cburch.logisim.gui.hex;
 
 import com.cburch.hex.HexModel;
 
-import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class HexFile {
     private static final String RAW_IMAGE_HEADER = "v2.0 raw";
     private static final String COMMENT_MARKER = "#";
+
     private HexFile() {
     }
 

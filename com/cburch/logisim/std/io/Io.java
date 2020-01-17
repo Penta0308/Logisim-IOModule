@@ -11,7 +11,6 @@ import com.cburch.logisim.tools.FactoryDescription;
 import com.cburch.logisim.tools.Library;
 import com.cburch.logisim.tools.Tool;
 
-import java.awt.*;
 import java.util.List;
 
 public class Io extends Library {

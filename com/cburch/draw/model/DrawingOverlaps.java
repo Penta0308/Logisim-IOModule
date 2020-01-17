@@ -3,8 +3,6 @@
 
 package com.cburch.draw.model;
 
-import java.util.*;
-
 class DrawingOverlaps {
     private Map<CanvasObject, List<CanvasObject>> map;
     private Set<CanvasObject> untested;

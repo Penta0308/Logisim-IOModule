@@ -9,7 +9,6 @@ import com.cburch.logisim.comp.ComponentFactory;
 import com.cburch.logisim.data.AttributeEvent;
 import com.cburch.logisim.data.AttributeListener;
 import com.cburch.logisim.data.AttributeSet;
-import com.cburch.logisim.file.*;
 import com.cburch.logisim.gui.generic.AttrTableModel;
 import com.cburch.logisim.gui.menu.Popups;
 import com.cburch.logisim.gui.menu.ProjectCircuitActions;
@@ -21,13 +20,12 @@ import com.cburch.logisim.tools.AddTool;
 import com.cburch.logisim.tools.Library;
 import com.cburch.logisim.tools.Tool;
 
-import javax.swing.*;
-
 class ToolboxManip implements ProjectExplorer.Listener {
     private Project proj;
     private ProjectExplorer explorer;
     private MyListener myListener = new MyListener();
     private Tool lastSelected = null;
+
     ToolboxManip(Project proj, ProjectExplorer explorer) {
         this.proj = proj;
         this.explorer = explorer;

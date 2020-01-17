@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.std.base;
 
-import com.cburch.logisim.tools.*;
-
 import java.util.Arrays;
 import java.util.List;
 

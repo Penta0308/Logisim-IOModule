@@ -6,12 +6,10 @@ package com.cburch.logisim.circuit.appear;
 import com.cburch.draw.model.CanvasObject;
 import com.cburch.draw.model.Handle;
 import com.cburch.draw.model.HandleGesture;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.util.UnmodifiableList;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import java.awt.*;
 import java.util.List;
 
 public class AppearanceAnchor extends AppearanceElement {

@@ -5,14 +5,11 @@ package com.cburch.logisim.std.gates;
 
 import com.cburch.logisim.analyze.model.Expression;
 import com.cburch.logisim.circuit.ExpressionComputer;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.file.Options;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
 
-import java.awt.*;
 import java.util.Map;
 
 class Buffer extends InstanceFactory {

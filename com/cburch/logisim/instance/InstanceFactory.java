@@ -8,7 +8,6 @@ import com.cburch.logisim.circuit.CircuitState;
 import com.cburch.logisim.comp.AbstractComponentFactory;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentDrawContext;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.gui.log.Loggable;
 import com.cburch.logisim.tools.Pokable;
 import com.cburch.logisim.tools.key.KeyConfigurator;
@@ -17,8 +16,6 @@ import com.cburch.logisim.util.StringGetter;
 import com.cburch.logisim.util.StringUtil;
 import com.cburch.logisim.util.UnmodifiableList;
 
-import javax.swing.*;
-import java.awt.*;
 import java.util.Collections;
 import java.util.List;
 

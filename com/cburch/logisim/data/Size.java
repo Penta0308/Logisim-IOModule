@@ -11,6 +11,7 @@ package com.cburch.logisim.data;
 public class Size {
     private final int wid;
     private final int ht;
+
     private Size(int wid, int ht) {
         this.wid = wid;
         this.ht = ht;

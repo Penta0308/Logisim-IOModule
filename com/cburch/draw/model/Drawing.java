@@ -9,9 +9,7 @@ import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 
-import java.awt.*;
 import java.util.List;
-import java.util.*;
 
 public class Drawing implements CanvasModel {
     private EventSourceWeakSupport<CanvasModelListener> listeners;

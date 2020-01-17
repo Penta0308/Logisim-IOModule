@@ -8,8 +8,6 @@ import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.proj.Action;
 import com.cburch.logisim.util.StringGetter;
 
-import java.util.*;
-
 public final class CircuitMutation extends CircuitTransaction {
     private Circuit primary;
     private List<CircuitChange> changes;

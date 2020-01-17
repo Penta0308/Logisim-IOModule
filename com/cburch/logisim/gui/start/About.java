@@ -7,10 +7,8 @@ import com.cburch.logisim.Main;
 import com.cburch.logisim.data.Value;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import javax.swing.*;
 import javax.swing.event.AncestorEvent;
 import javax.swing.event.AncestorListener;
-import java.awt.*;
 
 public class About {
     static final int IMAGE_BORDER = 10;

@@ -6,8 +6,6 @@ package com.cburch.logisim.std.io;
 import com.cburch.logisim.data.Value;
 import com.cburch.logisim.instance.InstanceData;
 
-import java.awt.*;
-
 class KeyboardData implements InstanceData, Cloneable {
     private Value lastClock;
     private char[] buffer;

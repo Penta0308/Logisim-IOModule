@@ -6,7 +6,6 @@ package com.cburch.logisim.gui.prefs;
 import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
 import java.util.Locale;
 
 class Strings {

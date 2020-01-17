@@ -31,9 +31,11 @@ public class ZipClassLoader extends ClassLoader {
     private HashMap<String, Object> classes = new HashMap<String, Object>();
     private Object bgLock = new Object();
     private WorkThread bgThread = null;
+
     public ZipClassLoader(String zipFileName) {
         this(new File(zipFileName));
     }
+
     public ZipClassLoader(File zipFile) {
         zipPath = zipFile;
     }

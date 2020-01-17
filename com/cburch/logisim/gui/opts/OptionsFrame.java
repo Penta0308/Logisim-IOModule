@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.gui.opts;
 
-import com.cburch.logisim.file.*;
 import com.cburch.logisim.gui.generic.LFrame;
 import com.cburch.logisim.gui.menu.LogisimMenuBar;
 import com.cburch.logisim.proj.Project;
@@ -12,8 +11,6 @@ import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.StringUtil;
 import com.cburch.logisim.util.WindowMenuItemManager;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -27,6 +24,7 @@ public class OptionsFrame extends LFrame {
     private JTabbedPane tabbedPane;
     private JButton revert = new JButton();
     private JButton close = new JButton();
+
     public OptionsFrame(Project project) {
         this.project = project;
         this.file = project.getLogisimFile();

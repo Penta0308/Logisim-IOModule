@@ -4,12 +4,9 @@
 package com.cburch.logisim.std.memory;
 
 import com.cburch.logisim.circuit.CircuitState;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.gui.hex.HexFrame;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.proj.Project;
 
-import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 

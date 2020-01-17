@@ -6,10 +6,8 @@ package com.cburch.logisim.std.memory;
 import com.cburch.hex.HexModel;
 import com.cburch.hex.HexModelListener;
 import com.cburch.logisim.circuit.CircuitState;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.gui.hex.HexFile;
 import com.cburch.logisim.gui.hex.HexFrame;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.tools.MenuExtender;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
@@ -18,7 +16,6 @@ import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.StringGetter;
 import com.cburch.logisim.util.StringUtil;
 
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.WeakHashMap;

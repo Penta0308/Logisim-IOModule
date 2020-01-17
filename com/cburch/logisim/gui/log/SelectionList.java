@@ -6,8 +6,6 @@ package com.cburch.logisim.gui.log;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.data.Value;
 
-import javax.swing.*;
-
 class SelectionList extends JList {
     private Selection selection;
 

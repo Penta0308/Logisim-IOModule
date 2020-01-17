@@ -8,9 +8,6 @@ import com.cburch.logisim.gui.menu.LogisimMenuItem;
 import com.cburch.logisim.util.Icons;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-import java.awt.*;
-
 class LogisimToolbarItem implements ToolbarItem {
     private MenuListener menu;
     private Icon icon;

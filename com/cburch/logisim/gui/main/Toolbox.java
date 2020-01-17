@@ -7,9 +7,6 @@ import com.cburch.draw.toolbar.Toolbar;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.tools.Tool;
 
-import javax.swing.*;
-import java.awt.*;
-
 class Toolbox extends JPanel {
     private ProjectExplorer toolbox;
 

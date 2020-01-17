@@ -8,12 +8,8 @@
 package com.cburch.logisim.std.wiring;
 
 import com.cburch.logisim.circuit.Wire;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class TransmissionGate extends InstanceFactory {
     static final int OUTPUT = 0;

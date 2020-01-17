@@ -37,6 +37,7 @@ public class Simulator {
     private SimulatorTicker ticker;
     private ArrayList<SimulatorListener> listeners
             = new ArrayList<SimulatorListener>();
+
     public Simulator() {
         manager = new PropagationManager();
         ticker = new SimulatorTicker(manager);

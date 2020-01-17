@@ -12,12 +12,9 @@ import com.cburch.logisim.data.AttributeSet;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 import com.cburch.logisim.instance.StdAttr;
-import com.cburch.logisim.tools.key.*;
 import com.cburch.logisim.util.Icons;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.InputEvent;
 
 public class SplitterFactory extends AbstractComponentFactory {

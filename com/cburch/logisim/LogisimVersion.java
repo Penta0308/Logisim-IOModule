@@ -10,6 +10,7 @@ public class LogisimVersion {
     private int release;
     private int revision;
     private String repr;
+
     private LogisimVersion(int major, int minor, int release, int revision) {
         this.major = major;
         this.minor = minor;

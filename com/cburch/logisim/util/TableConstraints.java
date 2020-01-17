@@ -6,6 +6,7 @@ package com.cburch.logisim.util;
 public class TableConstraints {
     private int col;
     private int row;
+
     private TableConstraints(int row, int col) {
         this.col = col;
         this.row = row;

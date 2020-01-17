@@ -10,8 +10,6 @@ import com.cburch.logisim.comp.EndData;
 import com.cburch.logisim.data.Direction;
 import com.cburch.logisim.data.Location;
 
-import java.util.*;
-
 public class MoveGesture {
     private MoveRequestListener listener;
     private Circuit circuit;

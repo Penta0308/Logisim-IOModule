@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import java.awt.*;
-
 public class FontUtil {
     public static String toStyleStandardString(int style) {
         switch (style) {

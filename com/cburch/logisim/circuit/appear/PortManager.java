@@ -10,8 +10,6 @@ import com.cburch.logisim.data.Location;
 import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.util.*;
-
 class PortManager {
     private CircuitAppearance appearance;
     private boolean doingUpdate;

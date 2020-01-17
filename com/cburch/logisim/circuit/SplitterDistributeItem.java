@@ -6,7 +6,6 @@ package com.cburch.logisim.circuit;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

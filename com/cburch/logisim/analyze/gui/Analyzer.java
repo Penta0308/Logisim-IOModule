@@ -9,10 +9,8 @@ import com.cburch.logisim.gui.menu.LogisimMenuBar;
 import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
@@ -35,6 +33,7 @@ public class Analyzer extends LFrame {
     private ExpressionTab expressionPanel;
     private MinimizedTab minimizedPanel;
     private BuildCircuitButton buildCircuit;
+
     Analyzer() {
         inputsPanel = new VariableTab(model.getInputs());
         outputsPanel = new VariableTab(model.getOutputs());

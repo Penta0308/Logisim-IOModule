@@ -3,9 +3,6 @@
 
 package com.cburch.draw.toolbar;
 
-import javax.swing.*;
-import java.awt.*;
-
 public class Toolbar extends JPanel {
     public static final Object VERTICAL = new Object();
     public static final Object HORIZONTAL = new Object();
@@ -14,6 +11,7 @@ public class Toolbar extends JPanel {
     private Object orientation;
     private MyListener myListener;
     private ToolbarButton curPressed;
+
     public Toolbar(ToolbarModel model) {
         super(new BorderLayout());
         this.subpanel = new JPanel();

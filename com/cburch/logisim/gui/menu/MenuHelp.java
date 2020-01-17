@@ -9,7 +9,6 @@ import com.cburch.logisim.util.MacCompatibility;
 
 import javax.help.HelpSet;
 import javax.help.JHelp;
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URL;

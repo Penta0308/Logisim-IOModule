@@ -13,11 +13,9 @@ import com.cburch.logisim.util.GifEncoder;
 import com.cburch.logisim.util.StringGetter;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileFilter;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.List;

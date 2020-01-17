@@ -3,13 +3,10 @@
 
 package com.cburch.logisim.analyze.gui;
 
-import com.cburch.logisim.analyze.model.*;
 import com.cburch.logisim.util.StringGetter;
 
-import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
@@ -27,6 +24,7 @@ class ExpressionTab extends AnalyzerTab implements TabInterface {
     private AnalyzerModel model;
     private int curExprStringLength = 0;
     private StringGetter errorMessage;
+
     public ExpressionTab(AnalyzerModel model) {
         this.model = model;
         selector = new OutputSelector(model);

@@ -17,13 +17,12 @@ import com.cburch.logisim.tools.Library;
 import com.cburch.logisim.tools.Tool;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 
-import java.util.*;
-
 public class LoadedLibrary extends Library implements LibraryEventSource {
     private Library base;
     private boolean dirty;
     private MyListener myListener;
     private EventSourceWeakSupport<LibraryListener> listeners;
+
     LoadedLibrary(Library base) {
         dirty = false;
         myListener = new MyListener();

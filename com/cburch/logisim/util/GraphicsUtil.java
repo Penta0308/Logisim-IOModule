@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import java.awt.*;
-
 public class GraphicsUtil {
     public static final int H_LEFT = -1;
     public static final int H_CENTER = 0;

@@ -3,10 +3,8 @@
 
 package com.cburch.logisim.std.gates;
 
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.awt.*;
 import java.util.List;
 
 class GateAttributes extends AbstractAttributeSet {

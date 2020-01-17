@@ -5,7 +5,6 @@ package com.cburch.logisim.tools;
 
 import com.cburch.logisim.data.Bounds;
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 

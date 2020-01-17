@@ -9,8 +9,6 @@ import com.cburch.draw.shapes.Rectangle;
 import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.util.Icons;
 
-import javax.swing.*;
-import java.awt.*;
 import java.util.List;
 
 public class RectangleTool extends RectangularTool {

@@ -3,9 +3,6 @@
 
 package com.cburch.logisim.gui.generic;
 
-import javax.swing.*;
-import java.awt.*;
-
 public interface CanvasPaneContents extends Scrollable {
     public void setCanvasPane(CanvasPane pane);
 

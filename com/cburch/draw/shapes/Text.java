@@ -16,7 +16,6 @@ import com.cburch.logisim.util.UnmodifiableList;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import java.awt.*;
 import java.util.List;
 
 public class Text extends AbstractCanvasObject {

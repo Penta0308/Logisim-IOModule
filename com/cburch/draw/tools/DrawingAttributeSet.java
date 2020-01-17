@@ -6,13 +6,10 @@ package com.cburch.draw.tools;
 import com.cburch.draw.model.AbstractCanvasObject;
 import com.cburch.draw.model.CanvasObject;
 import com.cburch.draw.shapes.DrawAttr;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 import com.cburch.logisim.util.UnmodifiableList;
 
-import java.awt.*;
 import java.util.List;
-import java.util.*;
 
 public class DrawingAttributeSet implements AttributeSet, Cloneable {
     static final List<Attribute<?>> ATTRS_ALL
@@ -31,6 +28,7 @@ public class DrawingAttributeSet implements AttributeSet, Cloneable {
     private EventSourceWeakSupport<AttributeListener> listeners;
     private List<Attribute<?>> attrs;
     private List<Object> values;
+
     public DrawingAttributeSet() {
         listeners = new EventSourceWeakSupport<AttributeListener>();
         attrs = ATTRS_ALL;

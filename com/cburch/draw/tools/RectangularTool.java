@@ -10,7 +10,6 @@ import com.cburch.draw.model.CanvasObject;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 

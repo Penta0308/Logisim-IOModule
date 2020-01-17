@@ -8,13 +8,12 @@ import com.cburch.logisim.comp.EndData;
 import com.cburch.logisim.data.BitWidth;
 import com.cburch.logisim.data.Location;
 
-import java.util.*;
-
 class CircuitPoints {
     private HashMap<Location, LocationData> map
             = new HashMap<Location, LocationData>();
     private HashMap<Location, WidthIncompatibilityData> incompatibilityData
             = new HashMap<Location, WidthIncompatibilityData>();
+
     public CircuitPoints() {
     }
 

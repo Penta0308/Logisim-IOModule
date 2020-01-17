@@ -8,7 +8,6 @@ import com.cburch.logisim.data.AttributeEvent;
 import com.cburch.logisim.data.AttributeListener;
 import com.cburch.logisim.data.AttributeSet;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -19,6 +18,7 @@ public abstract class AttributeSetTableModel
     private AttributeSet attrs;
     private HashMap<Attribute<?>, AttrRow> rowMap;
     private ArrayList<AttrRow> rows;
+
     public AttributeSetTableModel(AttributeSet attrs) {
         this.attrs = attrs;
         this.listeners = new ArrayList<AttrTableModelListener>();

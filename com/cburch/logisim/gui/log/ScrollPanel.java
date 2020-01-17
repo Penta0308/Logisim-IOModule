@@ -3,9 +3,6 @@
 
 package com.cburch.logisim.gui.log;
 
-import javax.swing.*;
-import java.awt.*;
-
 class ScrollPanel extends LogPanel {
     private TablePanel table;
 

@@ -9,7 +9,6 @@ import com.cburch.logisim.data.AttributeOption;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
 

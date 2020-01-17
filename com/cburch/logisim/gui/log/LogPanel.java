@@ -5,9 +5,6 @@ package com.cburch.logisim.gui.log;
 
 import com.cburch.logisim.proj.Project;
 
-import javax.swing.*;
-import java.awt.*;
-
 abstract class LogPanel extends JPanel {
     private LogFrame logFrame;
 

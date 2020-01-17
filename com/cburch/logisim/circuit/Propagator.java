@@ -44,6 +44,7 @@ public class Propagator {
     private Random noiseSource = new Random();
     private int noiseCount = 0;
     private int setDataSerialNumber = 0;
+
     public Propagator(CircuitState root) {
         this.root = root;
         Listener l = new Listener(this);

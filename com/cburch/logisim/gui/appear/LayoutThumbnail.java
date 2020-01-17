@@ -13,8 +13,6 @@ import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.std.wiring.Pin;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.util.Collection;
 import java.util.Collections;
 

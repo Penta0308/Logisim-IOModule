@@ -8,14 +8,9 @@
 package com.cburch.logisim.std.wiring;
 
 import com.cburch.logisim.circuit.Wire;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.Icons;
-
-import javax.swing.*;
-import java.awt.*;
 
 public class Transistor extends InstanceFactory {
     static final AttributeOption TYPE_P

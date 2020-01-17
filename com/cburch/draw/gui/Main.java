@@ -14,8 +14,6 @@ import com.cburch.logisim.gui.generic.AttrTable;
 import com.cburch.logisim.util.HorizontalSplitPane;
 import com.cburch.logisim.util.VerticalSplitPane;
 
-import javax.swing.*;
-import java.awt.*;
 import java.util.Collections;
 
 public class Main {

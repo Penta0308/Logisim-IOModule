@@ -30,7 +30,7 @@ public class Components extends Library {
         /*tools = Arrays.asList(new AddTool(new GrayIncrementer()),
                 new AddTool(new SimpleGrayCounter()),
                 new AddTool(new GrayCounter()));*/
-        tools = Arrays.asList(new AddTool(new SDCard()));
+        tools = Arrays.asList(new AddTool(new IDECard()));
     }
 
     /**

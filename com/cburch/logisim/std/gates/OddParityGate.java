@@ -11,8 +11,6 @@ import com.cburch.logisim.instance.InstancePainter;
 import com.cburch.logisim.instance.InstanceState;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
-
 class OddParityGate extends AbstractGate {
     public static OddParityGate FACTORY = new OddParityGate();
 

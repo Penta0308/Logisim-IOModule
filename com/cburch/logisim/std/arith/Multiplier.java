@@ -3,12 +3,8 @@
 
 package com.cburch.logisim.std.arith;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class Multiplier extends InstanceFactory {
     static final int PER_DELAY = 1;

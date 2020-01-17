@@ -18,6 +18,7 @@ class MemContents implements Cloneable, HexModel {
     private int addrBits;
     private int mask;
     private MemContentsSub.ContentsInterface[] pages;
+
     private MemContents(int addrBits, int width) {
         listeners = null;
         setDimensions(addrBits, width);

@@ -12,8 +12,10 @@ public class AttributeSetImpl extends AbstractAttributeSet {
     private Node head = null;
     private Node tail = null;
     private int count = 0;
+
     public AttributeSetImpl() {
     }
+
     public AttributeSetImpl(Attribute<Object>[] attrs, Object[] values) {
         if (attrs.length != values.length) {
             throw new IllegalArgumentException("arrays must have same length");

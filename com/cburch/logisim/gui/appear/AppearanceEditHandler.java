@@ -10,7 +10,6 @@ import com.cburch.draw.canvas.Canvas;
 import com.cburch.draw.canvas.Selection;
 import com.cburch.draw.canvas.SelectionEvent;
 import com.cburch.draw.canvas.SelectionListener;
-import com.cburch.draw.model.*;
 import com.cburch.draw.util.MatchingSet;
 import com.cburch.draw.util.ZOrder;
 import com.cburch.logisim.circuit.Circuit;

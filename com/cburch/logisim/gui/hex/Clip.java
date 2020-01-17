@@ -7,8 +7,6 @@ import com.cburch.hex.Caret;
 import com.cburch.hex.HexEditor;
 import com.cburch.hex.HexModel;
 
-import javax.swing.*;
-import java.awt.datatransfer.*;
 import java.io.IOException;
 import java.io.StringReader;
 

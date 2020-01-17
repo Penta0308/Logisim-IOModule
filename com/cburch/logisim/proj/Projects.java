@@ -8,7 +8,6 @@ import com.cburch.logisim.gui.main.Frame;
 import com.cburch.logisim.util.MacCompatibility;
 import com.cburch.logisim.util.PropertyChangeWeakSupport;
 
-import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeListener;
@@ -28,6 +27,7 @@ public class Projects {
             = new PropertyChangeWeakSupport(Projects.class);
     private static ArrayList<Project> openProjects = new ArrayList<Project>();
     private static Frame mostRecentFrame = null;
+
     private Projects() {
     }
 

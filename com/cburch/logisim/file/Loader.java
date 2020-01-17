@@ -10,9 +10,7 @@ import com.cburch.logisim.util.MacCompatibility;
 import com.cburch.logisim.util.StringUtil;
 import com.cburch.logisim.util.ZipClassLoader;
 
-import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
-import java.awt.*;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -33,6 +31,7 @@ public class Loader implements LibraryLoader {
     private File mainFile = null;
     private Stack<File> filesOpening = new Stack<File>();
     private Map<File, File> substitutions = new HashMap<File, File>();
+
     public Loader(Component parent) {
         this.parent = parent;
         clear();

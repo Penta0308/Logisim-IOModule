@@ -11,8 +11,6 @@ import com.cburch.logisim.prefs.Template;
 import com.cburch.logisim.util.JFileChoosers;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
@@ -29,6 +27,7 @@ class TemplateOptions extends OptionsPanel {
     private JRadioButton custom = new JRadioButton();
     private JTextField templateField = new JTextField(40);
     private JButton templateButton = new JButton();
+
     public TemplateOptions(PreferencesFrame window) {
         super(window);
 

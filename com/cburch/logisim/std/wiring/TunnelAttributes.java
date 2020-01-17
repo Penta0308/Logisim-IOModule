@@ -4,10 +4,8 @@
 package com.cburch.logisim.std.wiring;
 
 import com.cburch.logisim.comp.TextField;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
 

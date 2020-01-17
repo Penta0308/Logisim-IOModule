@@ -8,14 +8,12 @@ import com.cburch.logisim.util.JInputComponent;
 import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 
-import javax.swing.*;
 import javax.swing.event.CellEditorListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableModel;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
@@ -32,6 +30,7 @@ public class AttrTable extends JPanel implements LocaleListener {
     private JTable table;
     private TableModelAdapter tableModel;
     private CellEditor editor = new CellEditor();
+
     public AttrTable(Window parent) {
         super(new BorderLayout());
         this.parent = parent;

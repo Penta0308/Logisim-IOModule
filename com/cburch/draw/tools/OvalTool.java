@@ -9,8 +9,6 @@ import com.cburch.draw.shapes.Oval;
 import com.cburch.logisim.data.Attribute;
 import com.cburch.logisim.util.Icons;
 
-import javax.swing.*;
-import java.awt.*;
 import java.util.List;
 
 public class OvalTool extends RectangularTool {

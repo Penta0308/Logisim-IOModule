@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.gui.generic;
 
-import java.awt.*;
 import java.awt.image.MemoryImageSource;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -27,6 +26,7 @@ public class GridPainter {
     private double zoomFactor;
     private Image gridImage;
     private int gridImageWidth;
+
     public GridPainter(Component destination) {
         this.destination = destination;
         support = new PropertyChangeSupport(this);

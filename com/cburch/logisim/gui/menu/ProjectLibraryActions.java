@@ -9,7 +9,6 @@ import com.cburch.logisim.file.LogisimFileActions;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.tools.Library;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

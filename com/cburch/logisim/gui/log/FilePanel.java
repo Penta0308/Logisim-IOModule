@@ -7,8 +7,6 @@ import com.cburch.logisim.data.Value;
 import com.cburch.logisim.util.JFileChoosers;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -24,6 +22,7 @@ class FilePanel extends LogPanel {
     private JButton selectButton = new JButton();
     private JCheckBox headerCheckBox = new JCheckBox();
     private JFileChooser chooser = JFileChoosers.create();
+
     public FilePanel(LogFrame frame) {
         super(frame);
 

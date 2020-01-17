@@ -6,7 +6,6 @@ package com.cburch.logisim.gui.appear;
 import com.cburch.draw.canvas.Canvas;
 import com.cburch.draw.toolbar.AbstractToolbarModel;
 import com.cburch.draw.toolbar.ToolbarItem;
-import com.cburch.draw.tools.*;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

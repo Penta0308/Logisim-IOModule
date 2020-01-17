@@ -8,8 +8,6 @@ import com.cburch.logisim.circuit.Wire;
 import com.cburch.logisim.data.Direction;
 import com.cburch.logisim.data.Location;
 
-import java.util.*;
-
 class Connector {
     static final String ALLOW_NEITHER = "neither";
     static final String ALLOW_VERTICAL = "vert";
@@ -17,6 +15,7 @@ class Connector {
     private static final int MAX_SECONDS = 10;
     private static final int MAX_ORDERING_TRIES = 10;
     private static final int MAX_SEARCH_ITERATIONS = 20000;
+
     private Connector() {
     }
 

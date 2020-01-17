@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.gui.generic;
 
-import java.awt.*;
-
 public interface AttrTableModelRow {
     public String getLabel();
 

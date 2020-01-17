@@ -6,8 +6,6 @@ package com.cburch.logisim.circuit;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.data.Location;
 
-import java.util.*;
-
 class WireRepair extends CircuitTransaction {
 
     private Circuit circuit;

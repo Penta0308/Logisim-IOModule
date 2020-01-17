@@ -3,9 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.util.*;
-
 public class LocaleManager {
     // static members
     private static final String SETTINGS_NAME = "settings";

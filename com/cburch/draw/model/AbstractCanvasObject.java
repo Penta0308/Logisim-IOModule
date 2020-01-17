@@ -4,13 +4,11 @@
 package com.cburch.draw.model;
 
 import com.cburch.draw.shapes.DrawAttr;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.util.EventSourceWeakSupport;
 import com.cburch.logisim.util.GraphicsUtil;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import java.awt.*;
 import java.util.List;
 import java.util.Random;
 

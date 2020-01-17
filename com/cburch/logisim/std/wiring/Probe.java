@@ -5,11 +5,7 @@ package com.cburch.logisim.std.wiring;
 
 import com.cburch.logisim.circuit.RadixOption;
 import com.cburch.logisim.comp.TextField;
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class Probe extends InstanceFactory {
     public static final Probe FACTORY = new Probe();

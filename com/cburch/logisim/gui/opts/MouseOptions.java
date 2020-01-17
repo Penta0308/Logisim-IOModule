@@ -15,11 +15,9 @@ import com.cburch.logisim.tools.Tool;
 import com.cburch.logisim.util.InputEventUtil;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.AbstractTableModel;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -36,6 +34,7 @@ class MouseOptions extends OptionsPanel {
     private JTable mappings = new JTable();
     private AttrTable attrTable;
     private JButton remove = new JButton();
+
     public MouseOptions(OptionsFrame window) {
         super(window, new GridLayout(1, 3));
 

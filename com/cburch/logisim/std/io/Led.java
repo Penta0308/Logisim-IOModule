@@ -3,11 +3,7 @@
 
 package com.cburch.logisim.std.io;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class Led extends InstanceFactory {
     public Led() {

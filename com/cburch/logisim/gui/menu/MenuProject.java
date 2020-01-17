@@ -5,7 +5,6 @@ package com.cburch.logisim.gui.menu;
 
 import com.cburch.logisim.proj.Project;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -30,6 +29,7 @@ class MenuProject extends Menu {
     private MenuItemImpl analyze = new MenuItemImpl(this, LogisimMenuBar.ANALYZE_CIRCUIT);
     private MenuItemImpl stats = new MenuItemImpl(this, LogisimMenuBar.CIRCUIT_STATS);
     private JMenuItem options = new JMenuItem();
+
     MenuProject(LogisimMenuBar menubar) {
         this.menubar = menubar;
 

@@ -10,8 +10,6 @@ import com.cburch.logisim.instance.InstancePainter;
 import com.cburch.logisim.instance.InstanceState;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
-
 class AndGate extends AbstractGate {
     public static AndGate FACTORY = new AndGate();
 

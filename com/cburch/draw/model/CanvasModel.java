@@ -7,7 +7,6 @@ import com.cburch.draw.canvas.Selection;
 import com.cburch.draw.shapes.Text;
 import com.cburch.logisim.data.Bounds;
 
-import java.awt.*;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;

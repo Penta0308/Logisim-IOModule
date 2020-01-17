@@ -7,8 +7,6 @@ import com.cburch.draw.canvas.Canvas;
 import com.cburch.draw.canvas.CanvasTool;
 import com.cburch.logisim.data.Attribute;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.List;

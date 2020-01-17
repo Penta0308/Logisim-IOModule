@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -16,9 +14,11 @@ public class HorizontalSplitPane extends JPanel {
     private JComponent comp1;
     private MyDragbar dragbar;
     private double fraction;
+
     public HorizontalSplitPane(JComponent comp0, JComponent comp1) {
         this(comp0, comp1, 0.5);
     }
+
     public HorizontalSplitPane(JComponent comp0, JComponent comp1,
                                double fraction) {
         this.comp0 = comp0;

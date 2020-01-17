@@ -11,6 +11,7 @@ import com.cburch.logisim.proj.Project;
 class RomContentsListener implements HexModelListener {
     Project proj;
     boolean enabled = true;
+
     RomContentsListener(Project proj) {
         this.proj = proj;
     }

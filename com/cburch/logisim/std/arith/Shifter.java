@@ -3,11 +3,8 @@
 
 package com.cburch.logisim.std.arith;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 
-import java.awt.*;
 import java.util.Arrays;
 
 public class Shifter extends InstanceFactory {

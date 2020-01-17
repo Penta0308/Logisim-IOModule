@@ -17,6 +17,7 @@ class RecentProjects implements PreferenceChangeListener {
     private static final int NUM_RECENT = 10;
     private File[] recentFiles;
     private long[] recentTimes;
+
     RecentProjects() {
         recentFiles = new File[NUM_RECENT];
         recentTimes = new long[NUM_RECENT];

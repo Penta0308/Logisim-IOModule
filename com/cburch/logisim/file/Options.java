@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.file;
 
-import com.cburch.logisim.data.*;
-
 public class Options {
     public static final AttributeOption GATE_UNDEFINED_IGNORE
             = new AttributeOption("ignore", Strings.getter("gateUndefinedIgnore"));

@@ -8,8 +8,6 @@ import com.cburch.draw.model.CanvasModelListener;
 import com.cburch.draw.model.CanvasObject;
 import com.cburch.logisim.data.Location;
 
-import java.awt.*;
-import java.awt.event.*;
 import java.util.List;
 
 class CanvasListener implements MouseListener, MouseMotionListener, KeyListener,

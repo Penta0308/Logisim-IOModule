@@ -16,9 +16,7 @@ import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.MacCompatibility;
 import com.cburch.logisim.util.StringUtil;
 
-import javax.swing.*;
 import java.io.File;
-import java.util.*;
 
 public class Startup {
     private static Startup startupTemp = null;
@@ -36,6 +34,7 @@ public class Startup {
     private boolean initialized = false;
     private SplashScreen monitor = null;
     private ArrayList<File> filesToPrint = new ArrayList<File>();
+
     private Startup(boolean isTty) {
         this.isTty = isTty;
         this.showSplash = !isTty;

@@ -8,8 +8,6 @@ import com.cburch.draw.model.CanvasObject;
 import com.cburch.draw.model.ReorderRequest;
 import com.cburch.draw.util.ZOrder;
 
-import java.util.*;
-
 public class ModelReorderAction extends ModelAction {
     private ArrayList<ReorderRequest> requests;
     private ArrayList<CanvasObject> objects;

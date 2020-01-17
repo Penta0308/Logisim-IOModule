@@ -7,9 +7,6 @@ import com.cburch.draw.canvas.Selection;
 import com.cburch.draw.canvas.SelectionEvent;
 import com.cburch.draw.canvas.SelectionListener;
 import com.cburch.draw.model.CanvasObject;
-import com.cburch.logisim.data.*;
-
-import java.util.*;
 
 public class SelectionAttributes extends AbstractAttributeSet {
     private Selection selection;
@@ -18,6 +15,7 @@ public class SelectionAttributes extends AbstractAttributeSet {
     private Attribute<?>[] selAttrs;
     private Object[] selValues;
     private List<Attribute<?>> attrsView;
+
     public SelectionAttributes(Selection selection) {
         this.selection = selection;
         this.listener = new Listener();

@@ -6,15 +6,11 @@ package com.cburch.logisim.instance;
 import com.cburch.logisim.circuit.Circuit;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.TextField;
-import com.cburch.logisim.comp.*;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.gui.main.Canvas;
 import com.cburch.logisim.proj.Action;
 import com.cburch.logisim.tools.Caret;
 import com.cburch.logisim.tools.SetAttributeAction;
 import com.cburch.logisim.tools.TextEditable;
-
-import java.awt.*;
 
 public class InstanceTextField implements AttributeListener, TextFieldListener,
         TextEditable {

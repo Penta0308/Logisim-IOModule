@@ -10,7 +10,6 @@ import com.cburch.logisim.data.BitWidth;
 import com.cburch.logisim.data.Direction;
 import com.cburch.logisim.instance.StdAttr;
 
-import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
 

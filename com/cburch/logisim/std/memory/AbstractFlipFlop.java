@@ -3,12 +3,9 @@
 
 package com.cburch.logisim.std.memory;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.util.GraphicsUtil;
 import com.cburch.logisim.util.StringGetter;
 
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 abstract class AbstractFlipFlop extends InstanceFactory {

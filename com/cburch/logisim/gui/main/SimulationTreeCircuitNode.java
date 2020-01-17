@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.gui.main;
 
-import com.cburch.logisim.circuit.*;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentFactory;
 import com.cburch.logisim.data.AttributeEvent;
@@ -23,6 +22,7 @@ class SimulationTreeCircuitNode extends SimulationTreeNode
     private CircuitState circuitState;
     private Component subcircComp;
     private ArrayList<TreeNode> children;
+
     public SimulationTreeCircuitNode(SimulationTreeModel model,
                                      SimulationTreeCircuitNode parent, CircuitState circuitState,
                                      Component subcircComp) {

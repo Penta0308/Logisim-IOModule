@@ -3,8 +3,6 @@
 
 package com.cburch.draw.toolbar;
 
-import java.awt.*;
-
 public class ToolbarSeparator implements ToolbarItem {
     private int size;
 

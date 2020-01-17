@@ -3,13 +3,11 @@
 
 package com.cburch.logisim.std.plexers;
 
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.tools.FactoryDescription;
 import com.cburch.logisim.tools.Library;
 import com.cburch.logisim.tools.Tool;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.util.List;
 
 public class Plexers extends Library {

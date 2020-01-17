@@ -10,7 +10,6 @@ import com.cburch.logisim.data.AttributeSet;
 import com.cburch.logisim.file.Options;
 import com.cburch.logisim.util.TableLayout;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -33,6 +32,7 @@ class SimulateOptions extends OptionsPanel {
             new ComboOption(Options.GATE_UNDEFINED_IGNORE),
             new ComboOption(Options.GATE_UNDEFINED_ERROR)
     });
+
     public SimulateOptions(OptionsFrame window) {
         super(window);
 

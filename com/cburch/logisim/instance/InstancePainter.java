@@ -7,10 +7,7 @@ import com.cburch.logisim.circuit.Circuit;
 import com.cburch.logisim.circuit.CircuitState;
 import com.cburch.logisim.circuit.WireSet;
 import com.cburch.logisim.comp.ComponentDrawContext;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.proj.Project;
-
-import java.awt.*;
 
 public class InstancePainter implements InstanceState {
     private ComponentDrawContext context;

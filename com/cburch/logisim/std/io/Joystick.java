@@ -3,12 +3,9 @@
 
 package com.cburch.logisim.std.io;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
 import com.cburch.logisim.tools.key.BitWidthConfigurator;
 import com.cburch.logisim.util.GraphicsUtil;
 
-import java.awt.*;
 import java.awt.event.MouseEvent;
 
 public class Joystick extends InstanceFactory {

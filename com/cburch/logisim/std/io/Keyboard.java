@@ -3,10 +3,6 @@
 
 package com.cburch.logisim.std.io;
 
-import com.cburch.logisim.data.*;
-import com.cburch.logisim.instance.*;
-
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 

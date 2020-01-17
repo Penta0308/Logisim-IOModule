@@ -4,14 +4,11 @@
 package com.cburch.logisim.std.base;
 
 import com.cburch.logisim.comp.TextField;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.Instance;
 import com.cburch.logisim.instance.InstanceFactory;
 import com.cburch.logisim.instance.InstancePainter;
 import com.cburch.logisim.instance.InstanceState;
 import com.cburch.logisim.util.GraphicsUtil;
-
-import java.awt.*;
 
 public class Text extends InstanceFactory {
     public static final Text FACTORY = new Text();

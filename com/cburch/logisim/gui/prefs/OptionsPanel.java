@@ -3,9 +3,6 @@
 
 package com.cburch.logisim.gui.prefs;
 
-import javax.swing.*;
-import java.awt.*;
-
 abstract class OptionsPanel extends JPanel {
     private PreferencesFrame optionsFrame;
 

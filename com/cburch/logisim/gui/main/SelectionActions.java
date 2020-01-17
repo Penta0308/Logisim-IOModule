@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.gui.main;
 
-import com.cburch.logisim.circuit.*;
 import com.cburch.logisim.comp.Component;
 import com.cburch.logisim.comp.ComponentFactory;
 import com.cburch.logisim.data.AttributeSet;
@@ -15,9 +14,6 @@ import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.tools.AddTool;
 import com.cburch.logisim.tools.Library;
 import com.cburch.logisim.tools.Tool;
-
-import javax.swing.*;
-import java.util.*;
 
 public class SelectionActions {
     private SelectionActions() {

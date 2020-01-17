@@ -24,6 +24,7 @@ public class Direction implements AttributeOptionInterface {
     private StringGetter disp;
     private StringGetter vert;
     private int id;
+
     private Direction(String name, StringGetter disp, StringGetter vert, int id) {
         this.name = name;
         this.disp = disp;

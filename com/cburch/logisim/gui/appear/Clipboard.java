@@ -12,6 +12,7 @@ class Clipboard {
     private static ClipboardContents current = ClipboardContents.EMPTY;
     private static PropertyChangeWeakSupport propertySupport
             = new PropertyChangeWeakSupport(Clipboard.class);
+
     private Clipboard() {
     }
 

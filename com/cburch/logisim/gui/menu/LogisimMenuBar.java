@@ -10,7 +10,6 @@ import com.cburch.logisim.util.LocaleListener;
 import com.cburch.logisim.util.LocaleManager;
 import com.cburch.logisim.util.WindowMenu;
 
-import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.event.ActionEvent;
@@ -63,6 +62,7 @@ public class LogisimMenuBar extends JMenuBar {
     private MenuProject project;
     private MenuSimulate simulate;
     private MenuHelp help;
+
     public LogisimMenuBar(JFrame parent, Project proj) {
         this.parent = parent;
         this.listener = new MyListener();

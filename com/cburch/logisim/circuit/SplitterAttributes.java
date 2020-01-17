@@ -3,7 +3,6 @@
 
 package com.cburch.logisim.circuit;
 
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.instance.StdAttr;
 
 import java.util.ArrayList;
@@ -44,6 +43,7 @@ class SplitterAttributes extends AbstractAttributeSet {
     BitOutOption[] options = null;
     private ArrayList<Attribute<?>> attrs = new ArrayList<Attribute<?>>(INIT_ATTRIBUTES);
     private SplitterParameters parameters;
+
     SplitterAttributes() {
         configureOptions();
         configureDefaults();

@@ -7,7 +7,6 @@ import com.cburch.logisim.circuit.CircuitState;
 import com.cburch.logisim.data.Bounds;
 import com.cburch.logisim.data.Location;
 
-import java.awt.*;
 import java.util.List;
 
 public abstract class AbstractComponent implements Component {

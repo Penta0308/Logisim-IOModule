@@ -7,12 +7,12 @@ import com.cburch.draw.toolbar.Toolbar;
 import com.cburch.draw.toolbar.ToolbarItem;
 import com.cburch.draw.toolbar.ToolbarModel;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class KeyboardToolSelection extends AbstractAction {
     private Toolbar toolbar;
     private int index;
+
     public KeyboardToolSelection(Toolbar toolbar, int index) {
         this.toolbar = toolbar;
         this.index = index;

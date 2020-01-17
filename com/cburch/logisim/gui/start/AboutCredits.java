@@ -3,8 +3,6 @@
 
 package com.cburch.logisim.gui.start;
 
-import javax.swing.*;
-import java.awt.*;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -34,6 +32,7 @@ class AboutCredits extends JComponent {
     private int initialLines; // number of lines to show in initial freeze
     private int initialHeight; // computed in code based on above
     private int linesHeight; // computed in code based on above
+
     public AboutCredits() {
         scroll = 0;
         setOpaque(false);

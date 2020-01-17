@@ -6,11 +6,8 @@ package com.cburch.logisim.gui.main;
 import com.cburch.logisim.circuit.Circuit;
 import com.cburch.logisim.circuit.Wire;
 import com.cburch.logisim.comp.Component;
-import com.cburch.logisim.data.*;
 import com.cburch.logisim.proj.Project;
 import com.cburch.logisim.util.UnmodifiableList;
-
-import java.util.*;
 
 class SelectionAttributes extends AbstractAttributeSet {
     private static final Attribute<?>[] EMPTY_ATTRIBUTES = new Attribute<?>[0];
@@ -24,6 +21,7 @@ class SelectionAttributes extends AbstractAttributeSet {
     private boolean[] readOnly;
     private Object[] values;
     private List<Attribute<?>> attrsView;
+
     public SelectionAttributes(Canvas canvas, Selection selection) {
         this.canvas = canvas;
         this.selection = selection;

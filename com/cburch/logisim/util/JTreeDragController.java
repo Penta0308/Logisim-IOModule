@@ -3,9 +3,6 @@
 
 package com.cburch.logisim.util;
 
-import javax.swing.*;
-import java.awt.*;
-
 /* This comes from "Denis" at http://forum.java.sun.com/thread.jspa?forumID=57&threadID=296255 */
 
 /*

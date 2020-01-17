@@ -12,7 +12,6 @@ import com.cburch.logisim.tools.AbstractCaret;
 import com.cburch.logisim.tools.Caret;
 import com.cburch.logisim.tools.Pokable;
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 

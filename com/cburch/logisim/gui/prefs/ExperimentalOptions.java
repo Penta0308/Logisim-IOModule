@@ -5,9 +5,6 @@ package com.cburch.logisim.gui.prefs;
 
 import com.cburch.logisim.prefs.AppPreferences;
 
-import javax.swing.*;
-import java.awt.*;
-
 class ExperimentalOptions extends OptionsPanel {
     private JLabel accelRestart = new JLabel();
     private PrefOptionList accel;
